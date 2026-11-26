@@ -1,4 +1,4 @@
-# CIE6004 Assignment 2: Garden Reconstruction and White-Plush Integration
+# Garden Reconstruction and White-Plush Integration
 
 This repository contains the project implementation, final report, rendered outputs, and validation evidence for reconstructing the Garden scene and a white plush object, then integrating the object into a camera orbit through the scene.
 
