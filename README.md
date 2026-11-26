@@ -50,6 +50,4 @@ pdflatex main.tex
 
 The figures used by the report are in `evidence/`. Build products are ignored by Git.
 
-## Licensing and data
 
-No project-wide license is provided because the coursework materials and third-party components have separate terms. Review the included MILo and Gaussian Splatting licenses before redistribution. The course dataset and assignment instructions are not included or relicensed here. Add a project license only after deciding what reuse rights you want to grant.
