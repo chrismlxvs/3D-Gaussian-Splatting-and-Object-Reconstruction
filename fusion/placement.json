@@ -1,0 +1,105 @@
+{
+  "object_to_scene": [
+    [
+      0.25040349832572084,
+      -0.0029930903004760116,
+      0.04048344567738703,
+      0.028870739348044412
+    ],
+    [
+      -0.0221714806331484,
+      -0.22199944043482892,
+      0.12072470265184679,
+      1.6062775591193403
+    ],
+    [
+      0.03400431457910414,
+      -0.12270725241115983,
+      -0.2194001292910496,
+      0.8581327323097476
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "convention": "column vectors; source-view-validated upright object frame to Garden world",
+  "transform_type": "uniform-scale rigid transform",
+  "object_kind": "fresh MILo reconstructed plush mesh; no vertical inversion correction",
+  "object_axes": {
+    "up": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "front": [
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "garden_axes": {
+    "up": [
+      -0.011799029488295025,
+      -0.8751416366084791,
+      -0.4837229566367169
+    ],
+    "front": [
+      0.15958936128967205,
+      0.47590756828427505,
+      -0.8648949197520487
+    ]
+  },
+  "support_point_object": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "contact_point_scene": [
+    0.028870739348044412,
+    1.6062775591193403,
+    0.8581327323097476
+  ],
+  "mesh_center_object": [
+    -0.05039670103312678,
+    0.9191056721258619,
+    -0.30061103835175024
+  ],
+  "mesh_center_scene": [
+    0.0013304921917856039,
+    1.3670628054689742,
+    0.809592196012682
+  ],
+  "mesh_center_method": "triangle-area-weighted surface centroid transformed from preserved reference frame into source-view-validated anchor frame",
+  "target_pixel_semantics": "triangle-area centroid projects to the target; mesh minimum is seated above the table plane",
+  "support_clearance_scene_units": 0.005,
+  "clearance_semantics": "minimum mesh vertex height above fitted Garden tabletop",
+  "mesh_minimum_y_object_units": -0.025614289327829727,
+  "anchor_origin_height_above_plane_scene_units": 0.011497642964344745,
+  "contact_plane": {
+    "normal": [
+      -0.011799029488295025,
+      -0.8751416366084791,
+      -0.4837229566367169
+    ],
+    "offset": 1.8326571640640492,
+    "ransac_threshold": 0.025,
+    "inlier_count": 5167,
+    "fit_method": "RANSAC consensus followed by total least squares refit"
+  },
+  "scale": 0.2536725841261133,
+  "target_pixel": {
+    "view": "DSC07956.JPG",
+    "xy": [
+      580.0,
+      335.0
+    ]
+  },
+  "table_span_scene_units": 2.7584659948188084,
+  "object_height_units": 1.6311179256845334,
+  "desired_object_height_scene_units": 0.41376989922282126,
+  "size_ratio_to_table_span": 0.15,
+  "note": "head-up orientation is taken from the source-view-validated support normal; camera and object transforms stay fixed across the clip"
+}

@@ -1,0 +1,32 @@
+{
+  "mesh": "[local project path omitted]",
+  "placement": "[local project path omitted]",
+  "vertices": 199712,
+  "faces": 398449,
+  "support_patch": "vertices at or below the local-Y 2nd percentile",
+  "support_patch_vertex_count": 3995,
+  "support_patch_table_hull_margin_min_scene_units": 0.561928329410295,
+  "support_patch_within_table_hull": true,
+  "surface_centroid_projected_pixel": [
+    580.0,
+    334.99999999999994
+  ],
+  "target_pixel": [
+    580.0,
+    335.0
+  ],
+  "center_projection_error_pixels": [
+    0.0,
+    -5.684341886080802e-14
+  ],
+  "mesh_signed_height_quantiles_scene_units": {
+    "minimum": 0.004995361776078733,
+    "1_percent": 0.019304106013790942,
+    "median": 0.24286254654823958
+  },
+  "requested_clearance_scene_units": 0.005,
+  "world_transform_static": true,
+  "table_hull_vertices": 44,
+  "clearance_matches": true
+}
+

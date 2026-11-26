@@ -1,0 +1,48 @@
+{
+  "orientation_correction": "none",
+  "reference_views": [
+    "1978_000000",
+    "1978_000080"
+  ],
+  "mesh_object_up_in_colmap": [
+    0.1488929514771439,
+    -0.8985128489569105,
+    -0.4129231759780032
+  ],
+  "source_camera_up_dot_by_view": {
+    "1978_000000": 0.9766496403423628,
+    "1978_000080": 0.9633802575810723
+  },
+  "source_camera_up_dot_mean": 0.986857903525604,
+  "original_support_plane_normal_in_colmap": [
+    0.1488929514771439,
+    -0.8985128489569105,
+    -0.4129231759780032
+  ],
+  "original_support_plane_normal_dot_source_camera_up": 0.986857903525604,
+  "yellow_head_marker_vertex_count": 22376,
+  "yellow_head_marker_y_median_object": 1.3495517373085022,
+  "support_patch_y_median_object": 0.02789299003779888,
+  "yellow_marker_above_support_patch": true,
+  "source_view_head_support_projection": {
+    "1978_000000": {
+      "head_marker_v_px": 217.70814519736786,
+      "support_patch_v_px": 450.08437868692096,
+      "head_projects_above_support": true
+    },
+    "1978_000080": {
+      "head_marker_v_px": 255.8458426942872,
+      "support_patch_v_px": 463.4633781477847,
+      "head_projects_above_support": true
+    }
+  },
+  "placed_up_dot_garden_table_normal": 1.0,
+  "initial_front_colmap": [
+    0.35935690402724,
+    0.43819360055558476,
+    -0.8239229235554073
+  ],
+  "mesh_vertices": 199712,
+  "assessment": "head-up axis is supported only if source-camera up votes and mesh head/support ordering agree; source-view projection remains the visual acceptance check"
+}
+

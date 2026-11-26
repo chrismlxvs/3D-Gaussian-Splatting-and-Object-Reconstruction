@@ -1,0 +1,520 @@
+{
+  "validation_views": 12,
+  "stride": 2,
+  "comparison_scope": "user-owned iterations and outputs only; no peer/classmate meshes",
+  "frame52_mask": "[local project path omitted]",
+  "validation_used_for_geometry_or_cleanup": false,
+  "meshes": {
+    "learned_sdf_raw": {
+      "path": "[local project path omitted]",
+      "mean_iou": 0.6169937492509313,
+      "per_view": [
+        {
+          "name": "1979_000048.jpg",
+          "iou": 0.6134825829086961,
+          "gt_sampled_pixels": 7389,
+          "mesh_sampled_pixels": 11926,
+          "gt_pixels_without_mesh_hit": 45,
+          "mesh_hits_outside_gt": 4582
+        },
+        {
+          "name": "1979_000050.jpg",
+          "iou": 0.6213491858361334,
+          "gt_sampled_pixels": 7296,
+          "mesh_sampled_pixels": 11523,
+          "gt_pixels_without_mesh_hit": 84,
+          "mesh_hits_outside_gt": 4311
+        },
+        {
+          "name": "1979_000052.jpg",
+          "iou": 0.6365249883232135,
+          "gt_sampled_pixels": 6891,
+          "mesh_sampled_pixels": 10628,
+          "gt_pixels_without_mesh_hit": 77,
+          "mesh_hits_outside_gt": 3814
+        },
+        {
+          "name": "1979_000054.jpg",
+          "iou": 0.6364760726857578,
+          "gt_sampled_pixels": 6774,
+          "mesh_sampled_pixels": 10427,
+          "gt_pixels_without_mesh_hit": 84,
+          "mesh_hits_outside_gt": 3737
+        },
+        {
+          "name": "1979_000056.jpg",
+          "iou": 0.626346594282806,
+          "gt_sampled_pixels": 7479,
+          "mesh_sampled_pixels": 11694,
+          "gt_pixels_without_mesh_hit": 95,
+          "mesh_hits_outside_gt": 4310
+        },
+        {
+          "name": "1979_000058.jpg",
+          "iou": 0.6447582835415535,
+          "gt_sampled_pixels": 8443,
+          "mesh_sampled_pixels": 12753,
+          "gt_pixels_without_mesh_hit": 134,
+          "mesh_hits_outside_gt": 4444
+        },
+        {
+          "name": "1979_000060.jpg",
+          "iou": 0.6129688863041581,
+          "gt_sampled_pixels": 8592,
+          "mesh_sampled_pixels": 13596,
+          "gt_pixels_without_mesh_hit": 160,
+          "mesh_hits_outside_gt": 5164
+        },
+        {
+          "name": "1979_000062.jpg",
+          "iou": 0.633932878505961,
+          "gt_sampled_pixels": 9359,
+          "mesh_sampled_pixels": 14351,
+          "gt_pixels_without_mesh_hit": 160,
+          "mesh_hits_outside_gt": 5152
+        },
+        {
+          "name": "1979_000064.jpg",
+          "iou": 0.6321755027422303,
+          "gt_sampled_pixels": 8731,
+          "mesh_sampled_pixels": 13589,
+          "gt_pixels_without_mesh_hit": 86,
+          "mesh_hits_outside_gt": 4944
+        },
+        {
+          "name": "1979_000066.jpg",
+          "iou": 0.5727482678983834,
+          "gt_sampled_pixels": 8008,
+          "mesh_sampled_pixels": 13784,
+          "gt_pixels_without_mesh_hit": 72,
+          "mesh_hits_outside_gt": 5848
+        },
+        {
+          "name": "1979_000068.jpg",
+          "iou": 0.590653830726033,
+          "gt_sampled_pixels": 8948,
+          "mesh_sampled_pixels": 14845,
+          "gt_pixels_without_mesh_hit": 113,
+          "mesh_hits_outside_gt": 6010
+        },
+        {
+          "name": "1979_000070.jpg",
+          "iou": 0.5825079172562496,
+          "gt_sampled_pixels": 8777,
+          "mesh_sampled_pixels": 14709,
+          "gt_pixels_without_mesh_hit": 132,
+          "mesh_hits_outside_gt": 6064
+        }
+      ]
+    },
+    "learned_sdf_train_culled": {
+      "path": "[local project path omitted]",
+      "mean_iou": 0.9362100410260025,
+      "per_view": [
+        {
+          "name": "1979_000048.jpg",
+          "iou": 0.9484603340292276,
+          "gt_sampled_pixels": 7389,
+          "mesh_sampled_pixels": 7544,
+          "gt_pixels_without_mesh_hit": 120,
+          "mesh_hits_outside_gt": 275
+        },
+        {
+          "name": "1979_000050.jpg",
+          "iou": 0.9437740352738364,
+          "gt_sampled_pixels": 7296,
+          "mesh_sampled_pixels": 7362,
+          "gt_pixels_without_mesh_hit": 179,
+          "mesh_hits_outside_gt": 245
+        },
+        {
+          "name": "1979_000052.jpg",
+          "iou": 0.9407469811850604,
+          "gt_sampled_pixels": 6891,
+          "mesh_sampled_pixels": 6931,
+          "gt_pixels_without_mesh_hit": 191,
+          "mesh_hits_outside_gt": 231
+        },
+        {
+          "name": "1979_000054.jpg",
+          "iou": 0.9404491188175099,
+          "gt_sampled_pixels": 6774,
+          "mesh_sampled_pixels": 6879,
+          "gt_pixels_without_mesh_hit": 157,
+          "mesh_hits_outside_gt": 262
+        },
+        {
+          "name": "1979_000056.jpg",
+          "iou": 0.9238911290322581,
+          "gt_sampled_pixels": 7479,
+          "mesh_sampled_pixels": 7789,
+          "gt_pixels_without_mesh_hit": 147,
+          "mesh_hits_outside_gt": 457
+        },
+        {
+          "name": "1979_000058.jpg",
+          "iou": 0.943902718825284,
+          "gt_sampled_pixels": 8443,
+          "mesh_sampled_pixels": 8502,
+          "gt_pixels_without_mesh_hit": 215,
+          "mesh_hits_outside_gt": 274
+        },
+        {
+          "name": "1979_000060.jpg",
+          "iou": 0.9171120078525467,
+          "gt_sampled_pixels": 8592,
+          "mesh_sampled_pixels": 8986,
+          "gt_pixels_without_mesh_hit": 183,
+          "mesh_hits_outside_gt": 577
+        },
+        {
+          "name": "1979_000062.jpg",
+          "iou": 0.9542755962920529,
+          "gt_sampled_pixels": 9359,
+          "mesh_sampled_pixels": 9404,
+          "gt_pixels_without_mesh_hit": 197,
+          "mesh_hits_outside_gt": 242
+        },
+        {
+          "name": "1979_000064.jpg",
+          "iou": 0.9643857094859447,
+          "gt_sampled_pixels": 8731,
+          "mesh_sampled_pixels": 8809,
+          "gt_pixels_without_mesh_hit": 120,
+          "mesh_hits_outside_gt": 198
+        },
+        {
+          "name": "1979_000066.jpg",
+          "iou": 0.8880429914912673,
+          "gt_sampled_pixels": 8008,
+          "mesh_sampled_pixels": 8856,
+          "gt_pixels_without_mesh_hit": 76,
+          "mesh_hits_outside_gt": 924
+        },
+        {
+          "name": "1979_000068.jpg",
+          "iou": 0.928142450742809,
+          "gt_sampled_pixels": 8948,
+          "mesh_sampled_pixels": 9352,
+          "gt_pixels_without_mesh_hit": 139,
+          "mesh_hits_outside_gt": 543
+        },
+        {
+          "name": "1979_000070.jpg",
+          "iou": 0.941337419284229,
+          "gt_sampled_pixels": 8777,
+          "mesh_sampled_pixels": 8961,
+          "gt_pixels_without_mesh_hit": 176,
+          "mesh_hits_outside_gt": 360
+        }
+      ]
+    },
+    "regular_tsdf_512_raw": {
+      "path": "[local project path omitted]",
+      "mean_iou": 0.9015990058664539,
+      "per_view": [
+        {
+          "name": "1979_000048.jpg",
+          "iou": 0.9266968325791856,
+          "gt_sampled_pixels": 7389,
+          "mesh_sampled_pixels": 7514,
+          "gt_pixels_without_mesh_hit": 221,
+          "mesh_hits_outside_gt": 346
+        },
+        {
+          "name": "1979_000050.jpg",
+          "iou": 0.9154560921345374,
+          "gt_sampled_pixels": 7296,
+          "mesh_sampled_pixels": 7340,
+          "gt_pixels_without_mesh_hit": 301,
+          "mesh_hits_outside_gt": 345
+        },
+        {
+          "name": "1979_000052.jpg",
+          "iou": 0.9167014904582811,
+          "gt_sampled_pixels": 6891,
+          "mesh_sampled_pixels": 6869,
+          "gt_pixels_without_mesh_hit": 310,
+          "mesh_hits_outside_gt": 288
+        },
+        {
+          "name": "1979_000054.jpg",
+          "iou": 0.9048084987419626,
+          "gt_sampled_pixels": 6774,
+          "mesh_sampled_pixels": 6853,
+          "gt_pixels_without_mesh_hit": 301,
+          "mesh_hits_outside_gt": 380
+        },
+        {
+          "name": "1979_000056.jpg",
+          "iou": 0.8932123321730482,
+          "gt_sampled_pixels": 7479,
+          "mesh_sampled_pixels": 7750,
+          "gt_pixels_without_mesh_hit": 294,
+          "mesh_hits_outside_gt": 565
+        },
+        {
+          "name": "1979_000058.jpg",
+          "iou": 0.9071099629338425,
+          "gt_sampled_pixels": 8443,
+          "mesh_sampled_pixels": 8536,
+          "gt_pixels_without_mesh_hit": 367,
+          "mesh_hits_outside_gt": 460
+        },
+        {
+          "name": "1979_000060.jpg",
+          "iou": 0.8789808917197452,
+          "gt_sampled_pixels": 8592,
+          "mesh_sampled_pixels": 9108,
+          "gt_pixels_without_mesh_hit": 312,
+          "mesh_hits_outside_gt": 828
+        },
+        {
+          "name": "1979_000062.jpg",
+          "iou": 0.9100817438692098,
+          "gt_sampled_pixels": 9359,
+          "mesh_sampled_pixels": 9568,
+          "gt_pixels_without_mesh_hit": 341,
+          "mesh_hits_outside_gt": 550
+        },
+        {
+          "name": "1979_000064.jpg",
+          "iou": 0.9185441941074524,
+          "gt_sampled_pixels": 8731,
+          "mesh_sampled_pixels": 8981,
+          "gt_pixels_without_mesh_hit": 251,
+          "mesh_hits_outside_gt": 501
+        },
+        {
+          "name": "1979_000066.jpg",
+          "iou": 0.8508676789587852,
+          "gt_sampled_pixels": 8008,
+          "mesh_sampled_pixels": 9057,
+          "gt_pixels_without_mesh_hit": 163,
+          "mesh_hits_outside_gt": 1212
+        },
+        {
+          "name": "1979_000068.jpg",
+          "iou": 0.8886848280787675,
+          "gt_sampled_pixels": 8948,
+          "mesh_sampled_pixels": 9563,
+          "gt_pixels_without_mesh_hit": 238,
+          "mesh_hits_outside_gt": 853
+        },
+        {
+          "name": "1979_000070.jpg",
+          "iou": 0.9080435246426285,
+          "gt_sampled_pixels": 8777,
+          "mesh_sampled_pixels": 9109,
+          "gt_pixels_without_mesh_hit": 265,
+          "mesh_hits_outside_gt": 597
+        }
+      ]
+    },
+    "regular_tsdf_512_post": {
+      "path": "[local project path omitted]",
+      "mean_iou": 0.9056259067367477,
+      "per_view": [
+        {
+          "name": "1979_000048.jpg",
+          "iou": 0.9291920632862145,
+          "gt_sampled_pixels": 7389,
+          "mesh_sampled_pixels": 7487,
+          "gt_pixels_without_mesh_hit": 224,
+          "mesh_hits_outside_gt": 322
+        },
+        {
+          "name": "1979_000050.jpg",
+          "iou": 0.9186917115460397,
+          "gt_sampled_pixels": 7296,
+          "mesh_sampled_pixels": 7311,
+          "gt_pixels_without_mesh_hit": 302,
+          "mesh_hits_outside_gt": 317
+        },
+        {
+          "name": "1979_000052.jpg",
+          "iou": 0.9203861760179096,
+          "gt_sampled_pixels": 6891,
+          "mesh_sampled_pixels": 6834,
+          "gt_pixels_without_mesh_hit": 313,
+          "mesh_hits_outside_gt": 256
+        },
+        {
+          "name": "1979_000054.jpg",
+          "iou": 0.9101012943162634,
+          "gt_sampled_pixels": 6774,
+          "mesh_sampled_pixels": 6803,
+          "gt_pixels_without_mesh_hit": 305,
+          "mesh_hits_outside_gt": 334
+        },
+        {
+          "name": "1979_000056.jpg",
+          "iou": 0.8975,
+          "gt_sampled_pixels": 7479,
+          "mesh_sampled_pixels": 7701,
+          "gt_pixels_without_mesh_hit": 299,
+          "mesh_hits_outside_gt": 521
+        },
+        {
+          "name": "1979_000058.jpg",
+          "iou": 0.9105067148177407,
+          "gt_sampled_pixels": 8443,
+          "mesh_sampled_pixels": 8486,
+          "gt_pixels_without_mesh_hit": 375,
+          "mesh_hits_outside_gt": 418
+        },
+        {
+          "name": "1979_000060.jpg",
+          "iou": 0.8824157063593683,
+          "gt_sampled_pixels": 8592,
+          "mesh_sampled_pixels": 9050,
+          "gt_pixels_without_mesh_hit": 322,
+          "mesh_hits_outside_gt": 780
+        },
+        {
+          "name": "1979_000062.jpg",
+          "iou": 0.9144336175395859,
+          "gt_sampled_pixels": 9359,
+          "mesh_sampled_pixels": 9502,
+          "gt_pixels_without_mesh_hit": 350,
+          "mesh_hits_outside_gt": 493
+        },
+        {
+          "name": "1979_000064.jpg",
+          "iou": 0.9222984002611818,
+          "gt_sampled_pixels": 8731,
+          "mesh_sampled_pixels": 8933,
+          "gt_pixels_without_mesh_hit": 256,
+          "mesh_hits_outside_gt": 458
+        },
+        {
+          "name": "1979_000066.jpg",
+          "iou": 0.8560358000436585,
+          "gt_sampled_pixels": 8008,
+          "mesh_sampled_pixels": 8997,
+          "gt_pixels_without_mesh_hit": 165,
+          "mesh_hits_outside_gt": 1154
+        },
+        {
+          "name": "1979_000068.jpg",
+          "iou": 0.8937589817285978,
+          "gt_sampled_pixels": 8948,
+          "mesh_sampled_pixels": 9501,
+          "gt_pixels_without_mesh_hit": 241,
+          "mesh_hits_outside_gt": 794
+        },
+        {
+          "name": "1979_000070.jpg",
+          "iou": 0.912190414924413,
+          "gt_sampled_pixels": 8777,
+          "mesh_sampled_pixels": 9058,
+          "gt_pixels_without_mesh_hit": 269,
+          "mesh_hits_outside_gt": 550
+        }
+      ]
+    },
+    "regular_tsdf_512_post_train_culled": {
+      "path": "[local project path omitted]",
+      "mean_iou": 0.9324840205121374,
+      "per_view": [
+        {
+          "name": "1979_000048.jpg",
+          "iou": 0.9447674418604651,
+          "gt_sampled_pixels": 7389,
+          "mesh_sampled_pixels": 7329,
+          "gt_pixels_without_mesh_hit": 239,
+          "mesh_hits_outside_gt": 179
+        },
+        {
+          "name": "1979_000050.jpg",
+          "iou": 0.9375335840945728,
+          "gt_sampled_pixels": 7296,
+          "mesh_sampled_pixels": 7127,
+          "gt_pixels_without_mesh_hit": 317,
+          "mesh_hits_outside_gt": 148
+        },
+        {
+          "name": "1979_000052.jpg",
+          "iou": 0.934475374732334,
+          "gt_sampled_pixels": 6891,
+          "mesh_sampled_pixels": 6660,
+          "gt_pixels_without_mesh_hit": 345,
+          "mesh_hits_outside_gt": 114
+        },
+        {
+          "name": "1979_000054.jpg",
+          "iou": 0.9327548806941431,
+          "gt_sampled_pixels": 6774,
+          "mesh_sampled_pixels": 6591,
+          "gt_pixels_without_mesh_hit": 324,
+          "mesh_hits_outside_gt": 141
+        },
+        {
+          "name": "1979_000056.jpg",
+          "iou": 0.9246451612903226,
+          "gt_sampled_pixels": 7479,
+          "mesh_sampled_pixels": 7437,
+          "gt_pixels_without_mesh_hit": 313,
+          "mesh_hits_outside_gt": 271
+        },
+        {
+          "name": "1979_000058.jpg",
+          "iou": 0.9364155118201933,
+          "gt_sampled_pixels": 8443,
+          "mesh_sampled_pixels": 8185,
+          "gt_pixels_without_mesh_hit": 402,
+          "mesh_hits_outside_gt": 144
+        },
+        {
+          "name": "1979_000060.jpg",
+          "iou": 0.9138618246235607,
+          "gt_sampled_pixels": 8592,
+          "mesh_sampled_pixels": 8694,
+          "gt_pixels_without_mesh_hit": 338,
+          "mesh_hits_outside_gt": 440
+        },
+        {
+          "name": "1979_000062.jpg",
+          "iou": 0.9491989881956155,
+          "gt_sampled_pixels": 9359,
+          "mesh_sampled_pixels": 9135,
+          "gt_pixels_without_mesh_hit": 353,
+          "mesh_hits_outside_gt": 129
+        },
+        {
+          "name": "1979_000064.jpg",
+          "iou": 0.9571799796633149,
+          "gt_sampled_pixels": 8731,
+          "mesh_sampled_pixels": 8592,
+          "gt_pixels_without_mesh_hit": 259,
+          "mesh_hits_outside_gt": 120
+        },
+        {
+          "name": "1979_000066.jpg",
+          "iou": 0.8878070870598891,
+          "gt_sampled_pixels": 8008,
+          "mesh_sampled_pixels": 8667,
+          "gt_pixels_without_mesh_hit": 166,
+          "mesh_hits_outside_gt": 825
+        },
+        {
+          "name": "1979_000068.jpg",
+          "iou": 0.9275439531166756,
+          "gt_sampled_pixels": 8948,
+          "mesh_sampled_pixels": 9142,
+          "gt_pixels_without_mesh_hit": 243,
+          "mesh_hits_outside_gt": 437
+        },
+        {
+          "name": "1979_000070.jpg",
+          "iou": 0.9436244589945622,
+          "gt_sampled_pixels": 8777,
+          "mesh_sampled_pixels": 8737,
+          "gt_pixels_without_mesh_hit": 274,
+          "mesh_hits_outside_gt": 234
+        }
+      ]
+    }
+  }
+}
+

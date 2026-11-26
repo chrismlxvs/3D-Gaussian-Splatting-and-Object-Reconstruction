@@ -1,0 +1,4333 @@
+{
+  "mesh": "[local project path omitted]",
+  "placement": "[local project path omitted]",
+  "camera_json": "[local project path omitted]",
+  "garden_depth_render": "[local project path omitted]",
+  "depth_tolerance": 0.02,
+  "table_plane_tolerance": 0.03,
+  "table_contact_band": 0.002,
+  "physical_gpu": 4,
+  "views": [
+    {
+      "index": 0,
+      "name": "frame_000.png",
+      "mesh_pixels": 6037,
+      "visible_mesh_pixels": 6037,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1937,
+      "above_contact_table_hit_mesh_pixels": 1937,
+      "mesh_plane_height_quantiles": [
+        0.011312007904052734,
+        0.07439344376325607,
+        0.21328866481781006,
+        0.3743899166584015,
+        0.43151724338531494
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 1,
+      "name": "frame_001.png",
+      "mesh_pixels": 6035,
+      "visible_mesh_pixels": 6035,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1939,
+      "above_contact_table_hit_mesh_pixels": 1939,
+      "mesh_plane_height_quantiles": [
+        0.01132822036743164,
+        0.07449281215667725,
+        0.2133347988128662,
+        0.3743917644023895,
+        0.4315178394317627
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 2,
+      "name": "frame_002.png",
+      "mesh_pixels": 6034,
+      "visible_mesh_pixels": 6034,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1940,
+      "above_contact_table_hit_mesh_pixels": 1940,
+      "mesh_plane_height_quantiles": [
+        0.011376261711120605,
+        0.0744878277182579,
+        0.21331459283828735,
+        0.3743690550327301,
+        0.43151938915252686
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 3,
+      "name": "frame_003.png",
+      "mesh_pixels": 6032,
+      "visible_mesh_pixels": 6032,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1941,
+      "above_contact_table_hit_mesh_pixels": 1941,
+      "mesh_plane_height_quantiles": [
+        0.011558294296264648,
+        0.07448090612888336,
+        0.21335363388061523,
+        0.3743852376937866,
+        0.43152177333831787
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 4,
+      "name": "frame_004.png",
+      "mesh_pixels": 6032,
+      "visible_mesh_pixels": 6032,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1949,
+      "above_contact_table_hit_mesh_pixels": 1949,
+      "mesh_plane_height_quantiles": [
+        0.012059688568115234,
+        0.0741758719086647,
+        0.21332401037216187,
+        0.374390184879303,
+        0.4315253496170044
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 5,
+      "name": "frame_005.png",
+      "mesh_pixels": 6035,
+      "visible_mesh_pixels": 6035,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1956,
+      "above_contact_table_hit_mesh_pixels": 1956,
+      "mesh_plane_height_quantiles": [
+        0.012026309967041016,
+        0.07421495765447617,
+        0.21331191062927246,
+        0.3743831217288971,
+        0.4315296411514282
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 6,
+      "name": "frame_006.png",
+      "mesh_pixels": 6034,
+      "visible_mesh_pixels": 6034,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1955,
+      "above_contact_table_hit_mesh_pixels": 1955,
+      "mesh_plane_height_quantiles": [
+        0.012007355690002441,
+        0.07414115220308304,
+        0.2132718563079834,
+        0.3743978440761566,
+        0.4315352439880371
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 7,
+      "name": "frame_007.png",
+      "mesh_pixels": 6034,
+      "visible_mesh_pixels": 6034,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1966,
+      "above_contact_table_hit_mesh_pixels": 1966,
+      "mesh_plane_height_quantiles": [
+        0.01094961166381836,
+        0.0738321915268898,
+        0.21326202154159546,
+        0.37441009283065796,
+        0.4315299987792969
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 8,
+      "name": "frame_008.png",
+      "mesh_pixels": 6033,
+      "visible_mesh_pixels": 6033,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1972,
+      "above_contact_table_hit_mesh_pixels": 1972,
+      "mesh_plane_height_quantiles": [
+        0.01102602481842041,
+        0.07384498417377472,
+        0.21327555179595947,
+        0.37440747022628784,
+        0.43155336380004883
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 9,
+      "name": "frame_009.png",
+      "mesh_pixels": 6028,
+      "visible_mesh_pixels": 6028,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1972,
+      "above_contact_table_hit_mesh_pixels": 1972,
+      "mesh_plane_height_quantiles": [
+        0.011112809181213379,
+        0.07404293119907379,
+        0.2132788896560669,
+        0.37434762716293335,
+        0.4315587282180786
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 10,
+      "name": "frame_010.png",
+      "mesh_pixels": 6027,
+      "visible_mesh_pixels": 6027,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1981,
+      "above_contact_table_hit_mesh_pixels": 1981,
+      "mesh_plane_height_quantiles": [
+        0.011209845542907715,
+        0.07391632348299026,
+        0.2133045196533203,
+        0.3743586242198944,
+        0.4315645694732666
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 11,
+      "name": "frame_011.png",
+      "mesh_pixels": 6026,
+      "visible_mesh_pixels": 6026,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1982,
+      "above_contact_table_hit_mesh_pixels": 1982,
+      "mesh_plane_height_quantiles": [
+        0.011317133903503418,
+        0.07368922233581543,
+        0.21329259872436523,
+        0.3744322657585144,
+        0.4315711259841919
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 12,
+      "name": "frame_012.png",
+      "mesh_pixels": 6028,
+      "visible_mesh_pixels": 6027,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1994,
+      "above_contact_table_hit_mesh_pixels": 1994,
+      "mesh_plane_height_quantiles": [
+        0.011435508728027344,
+        0.07350680977106094,
+        0.21331417560577393,
+        0.3744744658470154,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998341074983411
+    },
+    {
+      "index": 13,
+      "name": "frame_013.png",
+      "mesh_pixels": 6024,
+      "visible_mesh_pixels": 6024,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1997,
+      "above_contact_table_hit_mesh_pixels": 1997,
+      "mesh_plane_height_quantiles": [
+        0.011784911155700684,
+        0.07370185852050781,
+        0.2132892608642578,
+        0.3745163679122925,
+        0.43158602714538574
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 14,
+      "name": "frame_014.png",
+      "mesh_pixels": 6023,
+      "visible_mesh_pixels": 6023,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2008,
+      "above_contact_table_hit_mesh_pixels": 2008,
+      "mesh_plane_height_quantiles": [
+        0.012653350830078125,
+        0.07370970398187637,
+        0.21334171295166016,
+        0.3744993805885315,
+        0.43159449100494385
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 15,
+      "name": "frame_015.png",
+      "mesh_pixels": 6024,
+      "visible_mesh_pixels": 6023,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2021,
+      "above_contact_table_hit_mesh_pixels": 2021,
+      "mesh_plane_height_quantiles": [
+        0.011444926261901855,
+        0.07343993335962296,
+        0.21327358484268188,
+        0.3745642602443695,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998339973439575
+    },
+    {
+      "index": 16,
+      "name": "frame_016.png",
+      "mesh_pixels": 6015,
+      "visible_mesh_pixels": 6015,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2025,
+      "above_contact_table_hit_mesh_pixels": 2025,
+      "mesh_plane_height_quantiles": [
+        0.011600375175476074,
+        0.0734000951051712,
+        0.2133389711380005,
+        0.37454548478126526,
+        0.43161308765411377
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 17,
+      "name": "frame_017.png",
+      "mesh_pixels": 6015,
+      "visible_mesh_pixels": 6015,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2046,
+      "above_contact_table_hit_mesh_pixels": 2046,
+      "mesh_plane_height_quantiles": [
+        0.011766791343688965,
+        0.07337953895330429,
+        0.21333539485931396,
+        0.3745587468147278,
+        0.43161725997924805
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 18,
+      "name": "frame_018.png",
+      "mesh_pixels": 6014,
+      "visible_mesh_pixels": 6014,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2067,
+      "above_contact_table_hit_mesh_pixels": 2067,
+      "mesh_plane_height_quantiles": [
+        0.01194465160369873,
+        0.07319138199090958,
+        0.21322989463806152,
+        0.37457385659217834,
+        0.4316294193267822
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 19,
+      "name": "frame_019.png",
+      "mesh_pixels": 6015,
+      "visible_mesh_pixels": 6015,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2087,
+      "above_contact_table_hit_mesh_pixels": 2087,
+      "mesh_plane_height_quantiles": [
+        0.013062834739685059,
+        0.0729447677731514,
+        0.2132354974746704,
+        0.37461525201797485,
+        0.4316366910934448
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 20,
+      "name": "frame_020.png",
+      "mesh_pixels": 6009,
+      "visible_mesh_pixels": 6009,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2101,
+      "above_contact_table_hit_mesh_pixels": 2101,
+      "mesh_plane_height_quantiles": [
+        0.012833356857299805,
+        0.0725765973329544,
+        0.2132200002670288,
+        0.3746419847011566,
+        0.4316444396972656
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 21,
+      "name": "frame_021.png",
+      "mesh_pixels": 6014,
+      "visible_mesh_pixels": 6014,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2125,
+      "above_contact_table_hit_mesh_pixels": 2125,
+      "mesh_plane_height_quantiles": [
+        0.012040972709655762,
+        0.07251584529876709,
+        0.2132338285446167,
+        0.3746469020843506,
+        0.43165266513824463
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 22,
+      "name": "frame_022.png",
+      "mesh_pixels": 6012,
+      "visible_mesh_pixels": 6011,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2148,
+      "above_contact_table_hit_mesh_pixels": 2148,
+      "mesh_plane_height_quantiles": [
+        0.012297987937927246,
+        0.07257063686847687,
+        0.21314328908920288,
+        0.374677836894989,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998336660013307
+    },
+    {
+      "index": 23,
+      "name": "frame_023.png",
+      "mesh_pixels": 6012,
+      "visible_mesh_pixels": 6012,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2158,
+      "above_contact_table_hit_mesh_pixels": 2158,
+      "mesh_plane_height_quantiles": [
+        0.01287686824798584,
+        0.07254169881343842,
+        0.21311461925506592,
+        0.3746761083602905,
+        0.4316701889038086
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 24,
+      "name": "frame_024.png",
+      "mesh_pixels": 6006,
+      "visible_mesh_pixels": 6006,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2179,
+      "above_contact_table_hit_mesh_pixels": 2179,
+      "mesh_plane_height_quantiles": [
+        0.01293802261352539,
+        0.07255595922470093,
+        0.2131514549255371,
+        0.37466567754745483,
+        0.4316796064376831
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 25,
+      "name": "frame_025.png",
+      "mesh_pixels": 6005,
+      "visible_mesh_pixels": 6005,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2222,
+      "above_contact_table_hit_mesh_pixels": 2222,
+      "mesh_plane_height_quantiles": [
+        0.012459635734558105,
+        0.07260851562023163,
+        0.21314656734466553,
+        0.3746826946735382,
+        0.4316941499710083
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 26,
+      "name": "frame_026.png",
+      "mesh_pixels": 6007,
+      "visible_mesh_pixels": 6006,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2244,
+      "above_contact_table_hit_mesh_pixels": 2244,
+      "mesh_plane_height_quantiles": [
+        0.012710928916931152,
+        0.07240185886621475,
+        0.21297895908355713,
+        0.3747299611568451,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998335275511903
+    },
+    {
+      "index": 27,
+      "name": "frame_027.png",
+      "mesh_pixels": 5997,
+      "visible_mesh_pixels": 5997,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2260,
+      "above_contact_table_hit_mesh_pixels": 2260,
+      "mesh_plane_height_quantiles": [
+        0.01343536376953125,
+        0.07225029915571213,
+        0.2128582000732422,
+        0.37464287877082825,
+        0.4317631721496582
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 28,
+      "name": "frame_028.png",
+      "mesh_pixels": 5991,
+      "visible_mesh_pixels": 5990,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2302,
+      "above_contact_table_hit_mesh_pixels": 2302,
+      "mesh_plane_height_quantiles": [
+        0.0120849609375,
+        0.07209384441375732,
+        0.21296679973602295,
+        0.3746906518936157,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.99983308295777
+    },
+    {
+      "index": 29,
+      "name": "frame_029.png",
+      "mesh_pixels": 5990,
+      "visible_mesh_pixels": 5990,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2329,
+      "above_contact_table_hit_mesh_pixels": 2329,
+      "mesh_plane_height_quantiles": [
+        0.008656978607177734,
+        0.07148449122905731,
+        0.21273010969161987,
+        0.37467673420906067,
+        0.43181073665618896
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 30,
+      "name": "frame_030.png",
+      "mesh_pixels": 5983,
+      "visible_mesh_pixels": 5982,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2349,
+      "above_contact_table_hit_mesh_pixels": 2349,
+      "mesh_plane_height_quantiles": [
+        0.013180375099182129,
+        0.07169313728809357,
+        0.21242940425872803,
+        0.37466514110565186,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998328597693464
+    },
+    {
+      "index": 31,
+      "name": "frame_031.png",
+      "mesh_pixels": 5976,
+      "visible_mesh_pixels": 5976,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2350,
+      "above_contact_table_hit_mesh_pixels": 2350,
+      "mesh_plane_height_quantiles": [
+        0.00836336612701416,
+        0.07105058431625366,
+        0.21269434690475464,
+        0.37476420402526855,
+        0.4318336248397827
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 32,
+      "name": "frame_032.png",
+      "mesh_pixels": 5970,
+      "visible_mesh_pixels": 5970,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2361,
+      "above_contact_table_hit_mesh_pixels": 2361,
+      "mesh_plane_height_quantiles": [
+        0.009206652641296387,
+        0.07028421014547348,
+        0.2123989462852478,
+        0.37468221783638,
+        0.431868314743042
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 33,
+      "name": "frame_033.png",
+      "mesh_pixels": 5967,
+      "visible_mesh_pixels": 5966,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2379,
+      "above_contact_table_hit_mesh_pixels": 2379,
+      "mesh_plane_height_quantiles": [
+        0.009547114372253418,
+        0.06983206421136856,
+        0.2123934030532837,
+        0.37481677532196045,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998324115971174
+    },
+    {
+      "index": 34,
+      "name": "frame_034.png",
+      "mesh_pixels": 5957,
+      "visible_mesh_pixels": 5957,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2399,
+      "above_contact_table_hit_mesh_pixels": 2399,
+      "mesh_plane_height_quantiles": [
+        0.008623480796813965,
+        0.0696614533662796,
+        0.21216106414794922,
+        0.3747903108596802,
+        0.4319338798522949
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 35,
+      "name": "frame_035.png",
+      "mesh_pixels": 5950,
+      "visible_mesh_pixels": 5950,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2412,
+      "above_contact_table_hit_mesh_pixels": 2412,
+      "mesh_plane_height_quantiles": [
+        0.009671449661254883,
+        0.06965237855911255,
+        0.2117757797241211,
+        0.37491533160209656,
+        0.4319533109664917
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 36,
+      "name": "frame_036.png",
+      "mesh_pixels": 5948,
+      "visible_mesh_pixels": 5948,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2426,
+      "above_contact_table_hit_mesh_pixels": 2426,
+      "mesh_plane_height_quantiles": [
+        0.010548233985900879,
+        0.06888304650783539,
+        0.21165913343429565,
+        0.37493109703063965,
+        0.4319661855697632
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 37,
+      "name": "frame_037.png",
+      "mesh_pixels": 5935,
+      "visible_mesh_pixels": 5935,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2437,
+      "above_contact_table_hit_mesh_pixels": 2437,
+      "mesh_plane_height_quantiles": [
+        0.00889730453491211,
+        0.06866765022277832,
+        0.2116297483444214,
+        0.37484514713287354,
+        0.43197953701019287
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 38,
+      "name": "frame_038.png",
+      "mesh_pixels": 5926,
+      "visible_mesh_pixels": 5925,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2452,
+      "above_contact_table_hit_mesh_pixels": 2452,
+      "mesh_plane_height_quantiles": [
+        0.009101390838623047,
+        0.06844860315322876,
+        0.21191143989562988,
+        0.3749973773956299,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998312521093486
+    },
+    {
+      "index": 39,
+      "name": "frame_039.png",
+      "mesh_pixels": 5913,
+      "visible_mesh_pixels": 5911,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2467,
+      "above_contact_table_hit_mesh_pixels": 2467,
+      "mesh_plane_height_quantiles": [
+        0.011326193809509277,
+        0.06849028915166855,
+        0.2116992473602295,
+        0.3750508427619934,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9996617622188398
+    },
+    {
+      "index": 40,
+      "name": "frame_040.png",
+      "mesh_pixels": 5909,
+      "visible_mesh_pixels": 5908,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2483,
+      "above_contact_table_hit_mesh_pixels": 2483,
+      "mesh_plane_height_quantiles": [
+        0.009673237800598145,
+        0.06797873973846436,
+        0.2113732099533081,
+        0.3750433027744293,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998307666271788
+    },
+    {
+      "index": 41,
+      "name": "frame_041.png",
+      "mesh_pixels": 5888,
+      "visible_mesh_pixels": 5887,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2479,
+      "above_contact_table_hit_mesh_pixels": 2479,
+      "mesh_plane_height_quantiles": [
+        0.009405255317687988,
+        0.06826915591955185,
+        0.2117711901664734,
+        0.37512895464897156,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998301630434783
+    },
+    {
+      "index": 42,
+      "name": "frame_042.png",
+      "mesh_pixels": 5880,
+      "visible_mesh_pixels": 5879,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2499,
+      "above_contact_table_hit_mesh_pixels": 2499,
+      "mesh_plane_height_quantiles": [
+        0.010018706321716309,
+        0.0679696574807167,
+        0.2116096019744873,
+        0.3752526640892029,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998299319727891
+    },
+    {
+      "index": 43,
+      "name": "frame_043.png",
+      "mesh_pixels": 5864,
+      "visible_mesh_pixels": 5864,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2503,
+      "above_contact_table_hit_mesh_pixels": 2503,
+      "mesh_plane_height_quantiles": [
+        0.009970545768737793,
+        0.06776400655508041,
+        0.21153193712234497,
+        0.37521228194236755,
+        0.43207716941833496
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 44,
+      "name": "frame_044.png",
+      "mesh_pixels": 5831,
+      "visible_mesh_pixels": 5831,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2508,
+      "above_contact_table_hit_mesh_pixels": 2508,
+      "mesh_plane_height_quantiles": [
+        0.012409448623657227,
+        0.06773602962493896,
+        0.21162879467010498,
+        0.37522661685943604,
+        0.4321324825286865
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 45,
+      "name": "frame_045.png",
+      "mesh_pixels": 5810,
+      "visible_mesh_pixels": 5810,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2520,
+      "above_contact_table_hit_mesh_pixels": 2520,
+      "mesh_plane_height_quantiles": [
+        0.01179802417755127,
+        0.06746847927570343,
+        0.21222907304763794,
+        0.3752800524234772,
+        0.43210721015930176
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 46,
+      "name": "frame_046.png",
+      "mesh_pixels": 5797,
+      "visible_mesh_pixels": 5797,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2526,
+      "above_contact_table_hit_mesh_pixels": 2526,
+      "mesh_plane_height_quantiles": [
+        0.012269020080566406,
+        0.06713612377643585,
+        0.21214687824249268,
+        0.37540775537490845,
+        0.43215620517730713
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 47,
+      "name": "frame_047.png",
+      "mesh_pixels": 5783,
+      "visible_mesh_pixels": 5783,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2542,
+      "above_contact_table_hit_mesh_pixels": 2542,
+      "mesh_plane_height_quantiles": [
+        0.01262664794921875,
+        0.06720602512359619,
+        0.21119201183319092,
+        0.3753630816936493,
+        0.4322124719619751
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 48,
+      "name": "frame_048.png",
+      "mesh_pixels": 5772,
+      "visible_mesh_pixels": 5772,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2558,
+      "above_contact_table_hit_mesh_pixels": 2558,
+      "mesh_plane_height_quantiles": [
+        0.012215256690979004,
+        0.06693502515554428,
+        0.21102488040924072,
+        0.37528032064437866,
+        0.4322415590286255
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 49,
+      "name": "frame_049.png",
+      "mesh_pixels": 5751,
+      "visible_mesh_pixels": 5751,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2573,
+      "above_contact_table_hit_mesh_pixels": 2573,
+      "mesh_plane_height_quantiles": [
+        0.012923002243041992,
+        0.06654524803161621,
+        0.21123850345611572,
+        0.3755772113800049,
+        0.43226706981658936
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 50,
+      "name": "frame_050.png",
+      "mesh_pixels": 5729,
+      "visible_mesh_pixels": 5728,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2577,
+      "above_contact_table_hit_mesh_pixels": 2577,
+      "mesh_plane_height_quantiles": [
+        0.012752413749694824,
+        0.06640073657035828,
+        0.2122657299041748,
+        0.37577691674232483,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998254494676209
+    },
+    {
+      "index": 51,
+      "name": "frame_051.png",
+      "mesh_pixels": 5703,
+      "visible_mesh_pixels": 5703,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2572,
+      "above_contact_table_hit_mesh_pixels": 2572,
+      "mesh_plane_height_quantiles": [
+        0.011751651763916016,
+        0.06619827449321747,
+        0.2122284173965454,
+        0.37588727474212646,
+        0.43231356143951416
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 52,
+      "name": "frame_052.png",
+      "mesh_pixels": 5680,
+      "visible_mesh_pixels": 5680,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2566,
+      "above_contact_table_hit_mesh_pixels": 2566,
+      "mesh_plane_height_quantiles": [
+        0.012765884399414062,
+        0.06609848886728287,
+        0.21264904737472534,
+        0.3759404122829437,
+        0.43233561515808105
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 53,
+      "name": "frame_053.png",
+      "mesh_pixels": 5669,
+      "visible_mesh_pixels": 5668,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2577,
+      "above_contact_table_hit_mesh_pixels": 2577,
+      "mesh_plane_height_quantiles": [
+        0.010743260383605957,
+        0.0655629113316536,
+        0.21227037906646729,
+        0.3759683072566986,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998236020462162
+    },
+    {
+      "index": 54,
+      "name": "frame_054.png",
+      "mesh_pixels": 5656,
+      "visible_mesh_pixels": 5656,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2571,
+      "above_contact_table_hit_mesh_pixels": 2571,
+      "mesh_plane_height_quantiles": [
+        0.01111900806427002,
+        0.06515353918075562,
+        0.21241480112075806,
+        0.3759487271308899,
+        0.4323779344558716
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 55,
+      "name": "frame_055.png",
+      "mesh_pixels": 5634,
+      "visible_mesh_pixels": 5634,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2563,
+      "above_contact_table_hit_mesh_pixels": 2563,
+      "mesh_plane_height_quantiles": [
+        0.011505842208862305,
+        0.06420847773551941,
+        0.21258896589279175,
+        0.3759901821613312,
+        0.4323979616165161
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 56,
+      "name": "frame_056.png",
+      "mesh_pixels": 5603,
+      "visible_mesh_pixels": 5603,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2545,
+      "above_contact_table_hit_mesh_pixels": 2545,
+      "mesh_plane_height_quantiles": [
+        0.011878252029418945,
+        0.06412748992443085,
+        0.21287274360656738,
+        0.37611162662506104,
+        0.432411789894104
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 57,
+      "name": "frame_057.png",
+      "mesh_pixels": 5585,
+      "visible_mesh_pixels": 5585,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2524,
+      "above_contact_table_hit_mesh_pixels": 2524,
+      "mesh_plane_height_quantiles": [
+        0.010811686515808105,
+        0.06421075016260147,
+        0.2134495973587036,
+        0.37616822123527527,
+        0.43243086338043213
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 58,
+      "name": "frame_058.png",
+      "mesh_pixels": 5553,
+      "visible_mesh_pixels": 5553,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2513,
+      "above_contact_table_hit_mesh_pixels": 2513,
+      "mesh_plane_height_quantiles": [
+        0.011528849601745605,
+        0.06417355686426163,
+        0.2131716012954712,
+        0.3762176036834717,
+        0.43245434761047363
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 59,
+      "name": "frame_059.png",
+      "mesh_pixels": 5518,
+      "visible_mesh_pixels": 5518,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2501,
+      "above_contact_table_hit_mesh_pixels": 2501,
+      "mesh_plane_height_quantiles": [
+        0.012416601181030273,
+        0.06391575187444687,
+        0.21420317888259888,
+        0.37650054693222046,
+        0.43248438835144043
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 60,
+      "name": "frame_060.png",
+      "mesh_pixels": 5498,
+      "visible_mesh_pixels": 5498,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2487,
+      "above_contact_table_hit_mesh_pixels": 2487,
+      "mesh_plane_height_quantiles": [
+        0.012250661849975586,
+        0.06353312730789185,
+        0.2145107388496399,
+        0.3765031099319458,
+        0.4325505495071411
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 61,
+      "name": "frame_061.png",
+      "mesh_pixels": 5478,
+      "visible_mesh_pixels": 5478,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2475,
+      "above_contact_table_hit_mesh_pixels": 2475,
+      "mesh_plane_height_quantiles": [
+        0.011378645896911621,
+        0.06334458291530609,
+        0.2147272229194641,
+        0.3766997158527374,
+        0.4325251579284668
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 62,
+      "name": "frame_062.png",
+      "mesh_pixels": 5433,
+      "visible_mesh_pixels": 5433,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2451,
+      "above_contact_table_hit_mesh_pixels": 2451,
+      "mesh_plane_height_quantiles": [
+        0.012242317199707031,
+        0.06325190514326096,
+        0.21573221683502197,
+        0.3768410086631775,
+        0.43252289295196533
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 63,
+      "name": "frame_063.png",
+      "mesh_pixels": 5402,
+      "visible_mesh_pixels": 5401,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2425,
+      "above_contact_table_hit_mesh_pixels": 2425,
+      "mesh_plane_height_quantiles": [
+        0.012162208557128906,
+        0.06318577378988266,
+        0.21588027477264404,
+        0.37686610221862793,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998148833765272
+    },
+    {
+      "index": 64,
+      "name": "frame_064.png",
+      "mesh_pixels": 5370,
+      "visible_mesh_pixels": 5370,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2412,
+      "above_contact_table_hit_mesh_pixels": 2412,
+      "mesh_plane_height_quantiles": [
+        0.01255178451538086,
+        0.06312503665685654,
+        0.2162427306175232,
+        0.3770841062068939,
+        0.43260300159454346
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 65,
+      "name": "frame_065.png",
+      "mesh_pixels": 5332,
+      "visible_mesh_pixels": 5331,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2394,
+      "above_contact_table_hit_mesh_pixels": 2394,
+      "mesh_plane_height_quantiles": [
+        0.012998223304748535,
+        0.06292149424552917,
+        0.21697139739990234,
+        0.37723156809806824,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998124531132783
+    },
+    {
+      "index": 66,
+      "name": "frame_066.png",
+      "mesh_pixels": 5303,
+      "visible_mesh_pixels": 5303,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2376,
+      "above_contact_table_hit_mesh_pixels": 2376,
+      "mesh_plane_height_quantiles": [
+        0.01162707805633545,
+        0.06281022727489471,
+        0.21680498123168945,
+        0.3772025406360626,
+        0.4327329397201538
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 67,
+      "name": "frame_067.png",
+      "mesh_pixels": 5266,
+      "visible_mesh_pixels": 5265,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2349,
+      "above_contact_table_hit_mesh_pixels": 2349,
+      "mesh_plane_height_quantiles": [
+        0.012421250343322754,
+        0.06265097856521606,
+        0.21766555309295654,
+        0.37738096714019775,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9998101025446259
+    },
+    {
+      "index": 68,
+      "name": "frame_068.png",
+      "mesh_pixels": 5228,
+      "visible_mesh_pixels": 5228,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2322,
+      "above_contact_table_hit_mesh_pixels": 2322,
+      "mesh_plane_height_quantiles": [
+        0.008973836898803711,
+        0.06158183887600899,
+        0.21764200925827026,
+        0.37753164768218994,
+        0.43275558948516846
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 69,
+      "name": "frame_069.png",
+      "mesh_pixels": 5203,
+      "visible_mesh_pixels": 5203,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2295,
+      "above_contact_table_hit_mesh_pixels": 2295,
+      "mesh_plane_height_quantiles": [
+        0.010720610618591309,
+        0.06118078529834747,
+        0.21798765659332275,
+        0.3776519000530243,
+        0.43276870250701904
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 70,
+      "name": "frame_070.png",
+      "mesh_pixels": 5173,
+      "visible_mesh_pixels": 5173,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2272,
+      "above_contact_table_hit_mesh_pixels": 2272,
+      "mesh_plane_height_quantiles": [
+        0.008835077285766602,
+        0.06071071699261665,
+        0.21839213371276855,
+        0.37775564193725586,
+        0.43284451961517334
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 71,
+      "name": "frame_071.png",
+      "mesh_pixels": 5137,
+      "visible_mesh_pixels": 5137,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2247,
+      "above_contact_table_hit_mesh_pixels": 2247,
+      "mesh_plane_height_quantiles": [
+        0.008792996406555176,
+        0.06041887030005455,
+        0.21891796588897705,
+        0.3778567910194397,
+        0.43286454677581787
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 72,
+      "name": "frame_072.png",
+      "mesh_pixels": 5103,
+      "visible_mesh_pixels": 5103,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2226,
+      "above_contact_table_hit_mesh_pixels": 2226,
+      "mesh_plane_height_quantiles": [
+        0.01060473918914795,
+        0.060045719146728516,
+        0.2195277214050293,
+        0.37833288311958313,
+        0.4328993558883667
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 73,
+      "name": "frame_073.png",
+      "mesh_pixels": 5053,
+      "visible_mesh_pixels": 5053,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2199,
+      "above_contact_table_hit_mesh_pixels": 2199,
+      "mesh_plane_height_quantiles": [
+        0.008887410163879395,
+        0.05970172956585884,
+        0.21915137767791748,
+        0.3786108195781708,
+        0.4329341650009155
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 74,
+      "name": "frame_074.png",
+      "mesh_pixels": 5031,
+      "visible_mesh_pixels": 5031,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2169,
+      "above_contact_table_hit_mesh_pixels": 2169,
+      "mesh_plane_height_quantiles": [
+        0.007154345512390137,
+        0.05963337421417236,
+        0.22008287906646729,
+        0.37890625,
+        0.43289220333099365
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 75,
+      "name": "frame_075.png",
+      "mesh_pixels": 4991,
+      "visible_mesh_pixels": 4991,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2141,
+      "above_contact_table_hit_mesh_pixels": 2141,
+      "mesh_plane_height_quantiles": [
+        0.011234641075134277,
+        0.05924272537231445,
+        0.22103655338287354,
+        0.3792612552642822,
+        0.43290066719055176
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 76,
+      "name": "frame_076.png",
+      "mesh_pixels": 4968,
+      "visible_mesh_pixels": 4968,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2116,
+      "above_contact_table_hit_mesh_pixels": 2116,
+      "mesh_plane_height_quantiles": [
+        0.0067980289459228516,
+        0.05871542915701866,
+        0.2214757800102234,
+        0.37942755222320557,
+        0.43299663066864014
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 77,
+      "name": "frame_077.png",
+      "mesh_pixels": 4932,
+      "visible_mesh_pixels": 4931,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2086,
+      "above_contact_table_hit_mesh_pixels": 2086,
+      "mesh_plane_height_quantiles": [
+        0.006990790367126465,
+        0.05775958672165871,
+        0.22220849990844727,
+        0.38018369674682617,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9997972424979724
+    },
+    {
+      "index": 78,
+      "name": "frame_078.png",
+      "mesh_pixels": 4888,
+      "visible_mesh_pixels": 4888,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2047,
+      "above_contact_table_hit_mesh_pixels": 2047,
+      "mesh_plane_height_quantiles": [
+        0.007132411003112793,
+        0.05747044458985329,
+        0.2234100103378296,
+        0.38107985258102417,
+        0.4330277442932129
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 79,
+      "name": "frame_079.png",
+      "mesh_pixels": 4859,
+      "visible_mesh_pixels": 4858,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2028,
+      "above_contact_table_hit_mesh_pixels": 2028,
+      "mesh_plane_height_quantiles": [
+        0.007272601127624512,
+        0.05655200779438019,
+        0.22346246242523193,
+        0.3810286521911621,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9997941963366948
+    },
+    {
+      "index": 80,
+      "name": "frame_080.png",
+      "mesh_pixels": 4820,
+      "visible_mesh_pixels": 4820,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 2002,
+      "above_contact_table_hit_mesh_pixels": 2002,
+      "mesh_plane_height_quantiles": [
+        0.007413029670715332,
+        0.05621131509542465,
+        0.2240675687789917,
+        0.38145530223846436,
+        0.4330805540084839
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 81,
+      "name": "frame_081.png",
+      "mesh_pixels": 4781,
+      "visible_mesh_pixels": 4781,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1974,
+      "above_contact_table_hit_mesh_pixels": 1974,
+      "mesh_plane_height_quantiles": [
+        0.0075539350509643555,
+        0.05617809295654297,
+        0.2243286371231079,
+        0.3811521530151367,
+        0.4331415891647339
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 82,
+      "name": "frame_082.png",
+      "mesh_pixels": 4746,
+      "visible_mesh_pixels": 4744,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1943,
+      "above_contact_table_hit_mesh_pixels": 1943,
+      "mesh_plane_height_quantiles": [
+        0.007760524749755859,
+        0.05597919225692749,
+        0.22603529691696167,
+        0.38191866874694824,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9995785924989464
+    },
+    {
+      "index": 83,
+      "name": "frame_083.png",
+      "mesh_pixels": 4714,
+      "visible_mesh_pixels": 4712,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1918,
+      "above_contact_table_hit_mesh_pixels": 1918,
+      "mesh_plane_height_quantiles": [
+        0.007846951484680176,
+        0.05573967844247818,
+        0.22650790214538574,
+        0.382061243057251,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9995757318625371
+    },
+    {
+      "index": 84,
+      "name": "frame_084.png",
+      "mesh_pixels": 4680,
+      "visible_mesh_pixels": 4679,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 2,
+      "table_plane_hit_mesh_pixels": 1869,
+      "above_contact_table_hit_mesh_pixels": 1869,
+      "mesh_plane_height_quantiles": [
+        0.008022189140319824,
+        0.055358707904815674,
+        0.2286502718925476,
+        0.3822532892227173,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9997863247863248
+    },
+    {
+      "index": 85,
+      "name": "frame_085.png",
+      "mesh_pixels": 4640,
+      "visible_mesh_pixels": 4639,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 3,
+      "table_plane_hit_mesh_pixels": 1821,
+      "above_contact_table_hit_mesh_pixels": 1821,
+      "mesh_plane_height_quantiles": [
+        0.007831692695617676,
+        0.05478215217590332,
+        0.2291366457939148,
+        0.3825591504573822,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9997844827586206
+    },
+    {
+      "index": 86,
+      "name": "frame_086.png",
+      "mesh_pixels": 4598,
+      "visible_mesh_pixels": 4598,
+      "scene_occluded_mesh_pixels": 0,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1733,
+      "above_contact_table_hit_mesh_pixels": 1733,
+      "mesh_plane_height_quantiles": [
+        0.008126974105834961,
+        0.0547296516597271,
+        0.22986143827438354,
+        0.3827730417251587,
+        0.43327832221984863
+      ],
+      "visible_fraction": 1.0
+    },
+    {
+      "index": 87,
+      "name": "frame_087.png",
+      "mesh_pixels": 4564,
+      "visible_mesh_pixels": 4548,
+      "scene_occluded_mesh_pixels": 16,
+      "table_depth_occlusion_suppressed_pixels": 6,
+      "table_plane_hit_mesh_pixels": 1661,
+      "above_contact_table_hit_mesh_pixels": 1661,
+      "mesh_plane_height_quantiles": [
+        0.00821828842163086,
+        0.054304663091897964,
+        0.2310957908630371,
+        0.38334110379219055,
+        0.43328237533569336
+      ],
+      "visible_fraction": 0.9964943032427696
+    },
+    {
+      "index": 88,
+      "name": "frame_088.png",
+      "mesh_pixels": 4548,
+      "visible_mesh_pixels": 4509,
+      "scene_occluded_mesh_pixels": 39,
+      "table_depth_occlusion_suppressed_pixels": 9,
+      "table_plane_hit_mesh_pixels": 1564,
+      "above_contact_table_hit_mesh_pixels": 1564,
+      "mesh_plane_height_quantiles": [
+        0.00864553451538086,
+        0.053804509341716766,
+        0.2322789430618286,
+        0.38359442353248596,
+        0.43328726291656494
+      ],
+      "visible_fraction": 0.991424802110818
+    },
+    {
+      "index": 89,
+      "name": "frame_089.png",
+      "mesh_pixels": 4519,
+      "visible_mesh_pixels": 4445,
+      "scene_occluded_mesh_pixels": 73,
+      "table_depth_occlusion_suppressed_pixels": 10,
+      "table_plane_hit_mesh_pixels": 1372,
+      "above_contact_table_hit_mesh_pixels": 1372,
+      "mesh_plane_height_quantiles": [
+        0.008944869041442871,
+        0.053658463060855865,
+        0.233443021774292,
+        0.3838310241699219,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9836246957291436
+    },
+    {
+      "index": 90,
+      "name": "frame_090.png",
+      "mesh_pixels": 4486,
+      "visible_mesh_pixels": 4362,
+      "scene_occluded_mesh_pixels": 123,
+      "table_depth_occlusion_suppressed_pixels": 4,
+      "table_plane_hit_mesh_pixels": 1068,
+      "above_contact_table_hit_mesh_pixels": 1068,
+      "mesh_plane_height_quantiles": [
+        0.007763981819152832,
+        0.05324143171310425,
+        0.23437130451202393,
+        0.3838742971420288,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9723584485064646
+    },
+    {
+      "index": 91,
+      "name": "frame_091.png",
+      "mesh_pixels": 4471,
+      "visible_mesh_pixels": 4308,
+      "scene_occluded_mesh_pixels": 162,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1694,
+      "above_contact_table_hit_mesh_pixels": 1694,
+      "mesh_plane_height_quantiles": [
+        0.007958173751831055,
+        0.05302703380584717,
+        0.23511254787445068,
+        0.3840140104293823,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9635428315813017
+    },
+    {
+      "index": 92,
+      "name": "frame_092.png",
+      "mesh_pixels": 4454,
+      "visible_mesh_pixels": 4219,
+      "scene_occluded_mesh_pixels": 233,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1678,
+      "above_contact_table_hit_mesh_pixels": 1678,
+      "mesh_plane_height_quantiles": [
+        0.0063631534576416016,
+        0.052999891340732574,
+        0.23547059297561646,
+        0.3845009505748749,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9472384373596767
+    },
+    {
+      "index": 93,
+      "name": "frame_093.png",
+      "mesh_pixels": 4435,
+      "visible_mesh_pixels": 4128,
+      "scene_occluded_mesh_pixels": 305,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1647,
+      "above_contact_table_hit_mesh_pixels": 1647,
+      "mesh_plane_height_quantiles": [
+        0.006582379341125488,
+        0.05273847654461861,
+        0.2361743450164795,
+        0.38473817706108093,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9307779030439685
+    },
+    {
+      "index": 94,
+      "name": "frame_094.png",
+      "mesh_pixels": 4419,
+      "visible_mesh_pixels": 4017,
+      "scene_occluded_mesh_pixels": 400,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1611,
+      "above_contact_table_hit_mesh_pixels": 1611,
+      "mesh_plane_height_quantiles": [
+        0.0068045854568481445,
+        0.05273132398724556,
+        0.23686933517456055,
+        0.38522449135780334,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.9090291921249152
+    },
+    {
+      "index": 95,
+      "name": "frame_095.png",
+      "mesh_pixels": 4428,
+      "visible_mesh_pixels": 3928,
+      "scene_occluded_mesh_pixels": 499,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1586,
+      "above_contact_table_hit_mesh_pixels": 1586,
+      "mesh_plane_height_quantiles": [
+        0.006986498832702637,
+        0.052040282636880875,
+        0.23661810159683228,
+        0.3850356936454773,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8870822041553749
+    },
+    {
+      "index": 96,
+      "name": "frame_096.png",
+      "mesh_pixels": 4414,
+      "visible_mesh_pixels": 3795,
+      "scene_occluded_mesh_pixels": 618,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1534,
+      "above_contact_table_hit_mesh_pixels": 1534,
+      "mesh_plane_height_quantiles": [
+        0.005589723587036133,
+        0.051820483058691025,
+        0.2373034954071045,
+        0.38512006402015686,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8597643860444042
+    },
+    {
+      "index": 97,
+      "name": "frame_097.png",
+      "mesh_pixels": 4412,
+      "visible_mesh_pixels": 3676,
+      "scene_occluded_mesh_pixels": 735,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1473,
+      "above_contact_table_hit_mesh_pixels": 1473,
+      "mesh_plane_height_quantiles": [
+        0.00729215145111084,
+        0.05170556157827377,
+        0.2384709119796753,
+        0.38535287976264954,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8331822302810517
+    },
+    {
+      "index": 98,
+      "name": "frame_098.png",
+      "mesh_pixels": 4419,
+      "visible_mesh_pixels": 3546,
+      "scene_occluded_mesh_pixels": 872,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1431,
+      "above_contact_table_hit_mesh_pixels": 1431,
+      "mesh_plane_height_quantiles": [
+        0.007482290267944336,
+        0.05123317241668701,
+        0.23875856399536133,
+        0.3852745294570923,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8024439918533605
+    },
+    {
+      "index": 99,
+      "name": "frame_099.png",
+      "mesh_pixels": 4418,
+      "visible_mesh_pixels": 3406,
+      "scene_occluded_mesh_pixels": 1011,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1377,
+      "above_contact_table_hit_mesh_pixels": 1377,
+      "mesh_plane_height_quantiles": [
+        0.007301211357116699,
+        0.05113878473639488,
+        0.23919081687927246,
+        0.3854595124721527,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.7709370755998189
+    },
+    {
+      "index": 100,
+      "name": "frame_100.png",
+      "mesh_pixels": 4413,
+      "visible_mesh_pixels": 3244,
+      "scene_occluded_mesh_pixels": 1166,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1320,
+      "above_contact_table_hit_mesh_pixels": 1320,
+      "mesh_plane_height_quantiles": [
+        0.007303118705749512,
+        0.051061347126960754,
+        0.23974394798278809,
+        0.3856046497821808,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.7351008384319058
+    },
+    {
+      "index": 101,
+      "name": "frame_101.png",
+      "mesh_pixels": 4410,
+      "visible_mesh_pixels": 3075,
+      "scene_occluded_mesh_pixels": 1331,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1256,
+      "above_contact_table_hit_mesh_pixels": 1256,
+      "mesh_plane_height_quantiles": [
+        0.0073691606521606445,
+        0.05142033100128174,
+        0.2402593493461609,
+        0.3859107792377472,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.6972789115646258
+    },
+    {
+      "index": 102,
+      "name": "frame_102.png",
+      "mesh_pixels": 4416,
+      "visible_mesh_pixels": 2906,
+      "scene_occluded_mesh_pixels": 1508,
+      "table_depth_occlusion_suppressed_pixels": 3,
+      "table_plane_hit_mesh_pixels": 1194,
+      "above_contact_table_hit_mesh_pixels": 1194,
+      "mesh_plane_height_quantiles": [
+        0.0076645612716674805,
+        0.05131566524505615,
+        0.24021780490875244,
+        0.3858271837234497,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.6580615942028986
+    },
+    {
+      "index": 103,
+      "name": "frame_103.png",
+      "mesh_pixels": 4425,
+      "visible_mesh_pixels": 2733,
+      "scene_occluded_mesh_pixels": 1691,
+      "table_depth_occlusion_suppressed_pixels": 2,
+      "table_plane_hit_mesh_pixels": 1125,
+      "above_contact_table_hit_mesh_pixels": 1125,
+      "mesh_plane_height_quantiles": [
+        0.007592439651489258,
+        0.05136282369494438,
+        0.24033617973327637,
+        0.3860643804073334,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.6176271186440678
+    },
+    {
+      "index": 104,
+      "name": "frame_104.png",
+      "mesh_pixels": 4440,
+      "visible_mesh_pixels": 2553,
+      "scene_occluded_mesh_pixels": 1884,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1062,
+      "above_contact_table_hit_mesh_pixels": 1062,
+      "mesh_plane_height_quantiles": [
+        0.007552385330200195,
+        0.05115862935781479,
+        0.24030596017837524,
+        0.38615334033966064,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.575
+    },
+    {
+      "index": 105,
+      "name": "frame_105.png",
+      "mesh_pixels": 4439,
+      "visible_mesh_pixels": 2372,
+      "scene_occluded_mesh_pixels": 2067,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 994,
+      "above_contact_table_hit_mesh_pixels": 994,
+      "mesh_plane_height_quantiles": [
+        0.007579445838928223,
+        0.051241468638181686,
+        0.24021971225738525,
+        0.38585764169692993,
+        0.4335845708847046
+      ],
+      "visible_fraction": 0.5343545843658482
+    },
+    {
+      "index": 106,
+      "name": "frame_106.png",
+      "mesh_pixels": 4446,
+      "visible_mesh_pixels": 2185,
+      "scene_occluded_mesh_pixels": 2261,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 924,
+      "above_contact_table_hit_mesh_pixels": 924,
+      "mesh_plane_height_quantiles": [
+        0.0067397356033325195,
+        0.051233649253845215,
+        0.24025917053222656,
+        0.3859495520591736,
+        0.4336041212081909
+      ],
+      "visible_fraction": 0.49145299145299143
+    },
+    {
+      "index": 107,
+      "name": "frame_107.png",
+      "mesh_pixels": 4457,
+      "visible_mesh_pixels": 1997,
+      "scene_occluded_mesh_pixels": 2459,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 871,
+      "above_contact_table_hit_mesh_pixels": 871,
+      "mesh_plane_height_quantiles": [
+        0.006659865379333496,
+        0.05101299285888672,
+        0.2396184206008911,
+        0.3859902024269104,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.4480592326677137
+    },
+    {
+      "index": 108,
+      "name": "frame_108.png",
+      "mesh_pixels": 4465,
+      "visible_mesh_pixels": 1804,
+      "scene_occluded_mesh_pixels": 2660,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 795,
+      "above_contact_table_hit_mesh_pixels": 795,
+      "mesh_plane_height_quantiles": [
+        0.006954073905944824,
+        0.050919078290462494,
+        0.23909056186676025,
+        0.38588428497314453,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.4040313549832027
+    },
+    {
+      "index": 109,
+      "name": "frame_109.png",
+      "mesh_pixels": 4485,
+      "visible_mesh_pixels": 1629,
+      "scene_occluded_mesh_pixels": 2855,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 729,
+      "above_contact_table_hit_mesh_pixels": 729,
+      "mesh_plane_height_quantiles": [
+        0.0064591169357299805,
+        0.051081396639347076,
+        0.23900628089904785,
+        0.3860224783420563,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.3632107023411371
+    },
+    {
+      "index": 110,
+      "name": "frame_110.png",
+      "mesh_pixels": 4495,
+      "visible_mesh_pixels": 1428,
+      "scene_occluded_mesh_pixels": 3067,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 652,
+      "above_contact_table_hit_mesh_pixels": 652,
+      "mesh_plane_height_quantiles": [
+        0.006335139274597168,
+        0.05138685554265976,
+        0.23890626430511475,
+        0.3859579265117645,
+        0.4336320161819458
+      ],
+      "visible_fraction": 0.317686318131257
+    },
+    {
+      "index": 111,
+      "name": "frame_111.png",
+      "mesh_pixels": 4509,
+      "visible_mesh_pixels": 1235,
+      "scene_occluded_mesh_pixels": 3274,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 597,
+      "above_contact_table_hit_mesh_pixels": 597,
+      "mesh_plane_height_quantiles": [
+        0.006610989570617676,
+        0.05112040042877197,
+        0.23819410800933838,
+        0.38593998551368713,
+        0.4336113929748535
+      ],
+      "visible_fraction": 0.2738966511421601
+    },
+    {
+      "index": 112,
+      "name": "frame_112.png",
+      "mesh_pixels": 4527,
+      "visible_mesh_pixels": 1054,
+      "scene_occluded_mesh_pixels": 3470,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 546,
+      "above_contact_table_hit_mesh_pixels": 546,
+      "mesh_plane_height_quantiles": [
+        0.006881833076477051,
+        0.05072317272424698,
+        0.23747169971466064,
+        0.3861265480518341,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.23282527059863045
+    },
+    {
+      "index": 113,
+      "name": "frame_113.png",
+      "mesh_pixels": 4544,
+      "visible_mesh_pixels": 887,
+      "scene_occluded_mesh_pixels": 3656,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 485,
+      "above_contact_table_hit_mesh_pixels": 485,
+      "mesh_plane_height_quantiles": [
+        0.007057309150695801,
+        0.05070033296942711,
+        0.23674392700195312,
+        0.3860005736351013,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.1952024647887324
+    },
+    {
+      "index": 114,
+      "name": "frame_114.png",
+      "mesh_pixels": 4561,
+      "visible_mesh_pixels": 716,
+      "scene_occluded_mesh_pixels": 3845,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 450,
+      "above_contact_table_hit_mesh_pixels": 450,
+      "mesh_plane_height_quantiles": [
+        0.0072296857833862305,
+        0.05018770694732666,
+        0.23575055599212646,
+        0.3855576515197754,
+        0.43369293212890625
+      ],
+      "visible_fraction": 0.1569831177373383
+    },
+    {
+      "index": 115,
+      "name": "frame_115.png",
+      "mesh_pixels": 4573,
+      "visible_mesh_pixels": 577,
+      "scene_occluded_mesh_pixels": 3996,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 430,
+      "above_contact_table_hit_mesh_pixels": 430,
+      "mesh_plane_height_quantiles": [
+        0.007377505302429199,
+        0.04991175979375839,
+        0.23507654666900635,
+        0.38457047939300537,
+        0.43370890617370605
+      ],
+      "visible_fraction": 0.12617537721408265
+    },
+    {
+      "index": 116,
+      "name": "frame_116.png",
+      "mesh_pixels": 4586,
+      "visible_mesh_pixels": 457,
+      "scene_occluded_mesh_pixels": 4128,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 403,
+      "above_contact_table_hit_mesh_pixels": 403,
+      "mesh_plane_height_quantiles": [
+        0.0075691938400268555,
+        0.049588143825531006,
+        0.2347204089164734,
+        0.3846350908279419,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.09965111208024423
+    },
+    {
+      "index": 117,
+      "name": "frame_117.png",
+      "mesh_pixels": 4598,
+      "visible_mesh_pixels": 391,
+      "scene_occluded_mesh_pixels": 4206,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 388,
+      "above_contact_table_hit_mesh_pixels": 388,
+      "mesh_plane_height_quantiles": [
+        0.007779121398925781,
+        0.0496922992169857,
+        0.23429584503173828,
+        0.38415664434432983,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.08503697259678121
+    },
+    {
+      "index": 118,
+      "name": "frame_118.png",
+      "mesh_pixels": 4606,
+      "visible_mesh_pixels": 373,
+      "scene_occluded_mesh_pixels": 4232,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 370,
+      "above_contact_table_hit_mesh_pixels": 370,
+      "mesh_plane_height_quantiles": [
+        0.007892012596130371,
+        0.05024611949920654,
+        0.23306697607040405,
+        0.3833683133125305,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.08098132870169344
+    },
+    {
+      "index": 119,
+      "name": "frame_119.png",
+      "mesh_pixels": 4625,
+      "visible_mesh_pixels": 356,
+      "scene_occluded_mesh_pixels": 4268,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 354,
+      "above_contact_table_hit_mesh_pixels": 354,
+      "mesh_plane_height_quantiles": [
+        0.0067250728607177734,
+        0.04983634874224663,
+        0.23181021213531494,
+        0.38339951634407043,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.07697297297297297
+    },
+    {
+      "index": 120,
+      "name": "frame_120.png",
+      "mesh_pixels": 4645,
+      "visible_mesh_pixels": 326,
+      "scene_occluded_mesh_pixels": 4318,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 319,
+      "above_contact_table_hit_mesh_pixels": 319,
+      "mesh_plane_height_quantiles": [
+        0.007675528526306152,
+        0.05033256858587265,
+        0.23155081272125244,
+        0.38332003355026245,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.07018299246501615
+    },
+    {
+      "index": 121,
+      "name": "frame_121.png",
+      "mesh_pixels": 4665,
+      "visible_mesh_pixels": 282,
+      "scene_occluded_mesh_pixels": 4383,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 271,
+      "above_contact_table_hit_mesh_pixels": 271,
+      "mesh_plane_height_quantiles": [
+        0.006763577461242676,
+        0.05051541328430176,
+        0.23069298267364502,
+        0.38316863775253296,
+        0.43371832370758057
+      ],
+      "visible_fraction": 0.06045016077170418
+    },
+    {
+      "index": 122,
+      "name": "frame_122.png",
+      "mesh_pixels": 4680,
+      "visible_mesh_pixels": 230,
+      "scene_occluded_mesh_pixels": 4448,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 220,
+      "above_contact_table_hit_mesh_pixels": 220,
+      "mesh_plane_height_quantiles": [
+        0.006863117218017578,
+        0.05028489977121353,
+        0.23040664196014404,
+        0.3831676244735718,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.049145299145299144
+    },
+    {
+      "index": 123,
+      "name": "frame_123.png",
+      "mesh_pixels": 4692,
+      "visible_mesh_pixels": 178,
+      "scene_occluded_mesh_pixels": 4512,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 171,
+      "above_contact_table_hit_mesh_pixels": 171,
+      "mesh_plane_height_quantiles": [
+        0.007080435752868652,
+        0.05014415830373764,
+        0.22970741987228394,
+        0.3831019699573517,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.03793691389599318
+    },
+    {
+      "index": 124,
+      "name": "frame_124.png",
+      "mesh_pixels": 4712,
+      "visible_mesh_pixels": 144,
+      "scene_occluded_mesh_pixels": 4568,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 136,
+      "above_contact_table_hit_mesh_pixels": 136,
+      "mesh_plane_height_quantiles": [
+        0.006274819374084473,
+        0.04978005960583687,
+        0.22901737689971924,
+        0.383148729801178,
+        0.43374717235565186
+      ],
+      "visible_fraction": 0.030560271646859084
+    },
+    {
+      "index": 125,
+      "name": "frame_125.png",
+      "mesh_pixels": 4728,
+      "visible_mesh_pixels": 106,
+      "scene_occluded_mesh_pixels": 4622,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 97,
+      "above_contact_table_hit_mesh_pixels": 97,
+      "mesh_plane_height_quantiles": [
+        0.006806373596191406,
+        0.04960540682077408,
+        0.22869062423706055,
+        0.38292235136032104,
+        0.433727502822876
+      ],
+      "visible_fraction": 0.02241962774957699
+    },
+    {
+      "index": 126,
+      "name": "frame_126.png",
+      "mesh_pixels": 4742,
+      "visible_mesh_pixels": 63,
+      "scene_occluded_mesh_pixels": 4679,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 55,
+      "above_contact_table_hit_mesh_pixels": 55,
+      "mesh_plane_height_quantiles": [
+        0.006349325180053711,
+        0.049159158021211624,
+        0.2278239130973816,
+        0.383000910282135,
+        0.4337085485458374
+      ],
+      "visible_fraction": 0.013285533530156053
+    },
+    {
+      "index": 127,
+      "name": "frame_127.png",
+      "mesh_pixels": 4757,
+      "visible_mesh_pixels": 29,
+      "scene_occluded_mesh_pixels": 4726,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 24,
+      "above_contact_table_hit_mesh_pixels": 24,
+      "mesh_plane_height_quantiles": [
+        0.007772922515869141,
+        0.04923365265130997,
+        0.2274998426437378,
+        0.3826574683189392,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.006096279167542569
+    },
+    {
+      "index": 128,
+      "name": "frame_128.png",
+      "mesh_pixels": 4779,
+      "visible_mesh_pixels": 8,
+      "scene_occluded_mesh_pixels": 4769,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 4,
+      "above_contact_table_hit_mesh_pixels": 4,
+      "mesh_plane_height_quantiles": [
+        0.0073468685150146484,
+        0.049279261380434036,
+        0.22658836841583252,
+        0.38203561305999756,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.0016739903745553464
+    },
+    {
+      "index": 129,
+      "name": "frame_129.png",
+      "mesh_pixels": 4782,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4782,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.006827712059020996,
+        0.04968566820025444,
+        0.22587502002716064,
+        0.3812680244445801,
+        0.43376827239990234
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 130,
+      "name": "frame_130.png",
+      "mesh_pixels": 4814,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4813,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.0067691802978515625,
+        0.050091855227947235,
+        0.2259020209312439,
+        0.3816939890384674,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 131,
+      "name": "frame_131.png",
+      "mesh_pixels": 4815,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4815,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.007338404655456543,
+        0.05021779611706734,
+        0.2251185178756714,
+        0.3814593255519867,
+        0.43374884128570557
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 132,
+      "name": "frame_132.png",
+      "mesh_pixels": 4840,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4840,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.007273197174072266,
+        0.050481297075748444,
+        0.2242577075958252,
+        0.3805328607559204,
+        0.4337350130081177
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 133,
+      "name": "frame_133.png",
+      "mesh_pixels": 4868,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4866,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.007247805595397949,
+        0.05037558078765869,
+        0.22392696142196655,
+        0.3803212344646454,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 134,
+      "name": "frame_134.png",
+      "mesh_pixels": 4890,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4890,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.006892681121826172,
+        0.05026169866323471,
+        0.22282642126083374,
+        0.3792799115180969,
+        0.43371665477752686
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 135,
+      "name": "frame_135.png",
+      "mesh_pixels": 4918,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4917,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.007117629051208496,
+        0.050430379807949066,
+        0.22225594520568848,
+        0.3792398273944855,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 136,
+      "name": "frame_136.png",
+      "mesh_pixels": 4940,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4938,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.007090091705322266,
+        0.050647567957639694,
+        0.2223200798034668,
+        0.37899404764175415,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 137,
+      "name": "frame_137.png",
+      "mesh_pixels": 4948,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4948,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.006612896919250488,
+        0.05072464048862457,
+        0.2213432788848877,
+        0.37854722142219543,
+        0.4337441921234131
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 138,
+      "name": "frame_138.png",
+      "mesh_pixels": 4978,
+      "visible_mesh_pixels": 0,
+      "scene_occluded_mesh_pixels": 4978,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.00746607780456543,
+        0.05074131488800049,
+        0.22166818380355835,
+        0.3786613643169403,
+        0.43372559547424316
+      ],
+      "visible_fraction": 0.0
+    },
+    {
+      "index": 139,
+      "name": "frame_139.png",
+      "mesh_pixels": 4997,
+      "visible_mesh_pixels": 8,
+      "scene_occluded_mesh_pixels": 4989,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 0,
+      "above_contact_table_hit_mesh_pixels": 0,
+      "mesh_plane_height_quantiles": [
+        0.007525205612182617,
+        0.05137283727526665,
+        0.22203433513641357,
+        0.37847402691841125,
+        0.43370771408081055
+      ],
+      "visible_fraction": 0.0016009605763458075
+    },
+    {
+      "index": 140,
+      "name": "frame_140.png",
+      "mesh_pixels": 5009,
+      "visible_mesh_pixels": 20,
+      "scene_occluded_mesh_pixels": 4989,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1,
+      "above_contact_table_hit_mesh_pixels": 1,
+      "mesh_plane_height_quantiles": [
+        0.007536768913269043,
+        0.05115523189306259,
+        0.22166991233825684,
+        0.37830519676208496,
+        0.43371546268463135
+      ],
+      "visible_fraction": 0.003992812936713915
+    },
+    {
+      "index": 141,
+      "name": "frame_141.png",
+      "mesh_pixels": 5023,
+      "visible_mesh_pixels": 31,
+      "scene_occluded_mesh_pixels": 4991,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 6,
+      "above_contact_table_hit_mesh_pixels": 6,
+      "mesh_plane_height_quantiles": [
+        0.007744431495666504,
+        0.051347922533750534,
+        0.22166872024536133,
+        0.3778172731399536,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.006171610591280112
+    },
+    {
+      "index": 142,
+      "name": "frame_142.png",
+      "mesh_pixels": 5049,
+      "visible_mesh_pixels": 47,
+      "scene_occluded_mesh_pixels": 5002,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 9,
+      "above_contact_table_hit_mesh_pixels": 9,
+      "mesh_plane_height_quantiles": [
+        0.007885456085205078,
+        0.051615454256534576,
+        0.2218400239944458,
+        0.37809625267982483,
+        0.4336996078491211
+      ],
+      "visible_fraction": 0.009308774014656367
+    },
+    {
+      "index": 143,
+      "name": "frame_143.png",
+      "mesh_pixels": 5064,
+      "visible_mesh_pixels": 63,
+      "scene_occluded_mesh_pixels": 5000,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 8,
+      "above_contact_table_hit_mesh_pixels": 8,
+      "mesh_plane_height_quantiles": [
+        0.00791919231414795,
+        0.0517551526427269,
+        0.2218552827835083,
+        0.37801113724708557,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.012440758293838863
+    },
+    {
+      "index": 144,
+      "name": "frame_144.png",
+      "mesh_pixels": 5095,
+      "visible_mesh_pixels": 83,
+      "scene_occluded_mesh_pixels": 5012,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 8,
+      "above_contact_table_hit_mesh_pixels": 8,
+      "mesh_plane_height_quantiles": [
+        0.00793468952178955,
+        0.05219683423638344,
+        0.22203946113586426,
+        0.37778139114379883,
+        0.43369293212890625
+      ],
+      "visible_fraction": 0.016290480863591757
+    },
+    {
+      "index": 145,
+      "name": "frame_145.png",
+      "mesh_pixels": 5117,
+      "visible_mesh_pixels": 97,
+      "scene_occluded_mesh_pixels": 5020,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 12,
+      "above_contact_table_hit_mesh_pixels": 12,
+      "mesh_plane_height_quantiles": [
+        0.008143067359924316,
+        0.053189683705568314,
+        0.22201406955718994,
+        0.3776385486125946,
+        0.43367481231689453
+      ],
+      "visible_fraction": 0.018956419777213213
+    },
+    {
+      "index": 146,
+      "name": "frame_146.png",
+      "mesh_pixels": 5133,
+      "visible_mesh_pixels": 111,
+      "scene_occluded_mesh_pixels": 5021,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 14,
+      "above_contact_table_hit_mesh_pixels": 14,
+      "mesh_plane_height_quantiles": [
+        0.008252978324890137,
+        0.05377547815442085,
+        0.2219536304473877,
+        0.37756824493408203,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.02162478082992402
+    },
+    {
+      "index": 147,
+      "name": "frame_147.png",
+      "mesh_pixels": 5161,
+      "visible_mesh_pixels": 127,
+      "scene_occluded_mesh_pixels": 5034,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 18,
+      "above_contact_table_hit_mesh_pixels": 18,
+      "mesh_plane_height_quantiles": [
+        0.008252143859863281,
+        0.05405223369598389,
+        0.22217786312103271,
+        0.3776843547821045,
+        0.43364036083221436
+      ],
+      "visible_fraction": 0.02460763417942259
+    },
+    {
+      "index": 148,
+      "name": "frame_148.png",
+      "mesh_pixels": 5201,
+      "visible_mesh_pixels": 140,
+      "scene_occluded_mesh_pixels": 5061,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 23,
+      "above_contact_table_hit_mesh_pixels": 23,
+      "mesh_plane_height_quantiles": [
+        0.008296370506286621,
+        0.05461728572845459,
+        0.22197270393371582,
+        0.3775254487991333,
+        0.43362534046173096
+      ],
+      "visible_fraction": 0.026917900403768506
+    },
+    {
+      "index": 149,
+      "name": "frame_149.png",
+      "mesh_pixels": 5226,
+      "visible_mesh_pixels": 155,
+      "scene_occluded_mesh_pixels": 5071,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 25,
+      "above_contact_table_hit_mesh_pixels": 25,
+      "mesh_plane_height_quantiles": [
+        0.008539676666259766,
+        0.05519580841064453,
+        0.2216649055480957,
+        0.3773850202560425,
+        0.4336085319519043
+      ],
+      "visible_fraction": 0.029659395331037123
+    },
+    {
+      "index": 150,
+      "name": "frame_150.png",
+      "mesh_pixels": 5249,
+      "visible_mesh_pixels": 165,
+      "scene_occluded_mesh_pixels": 5084,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 34,
+      "above_contact_table_hit_mesh_pixels": 34,
+      "mesh_plane_height_quantiles": [
+        0.008454203605651855,
+        0.0553143247961998,
+        0.22154200077056885,
+        0.3774676024913788,
+        0.43362152576446533
+      ],
+      "visible_fraction": 0.031434558963612115
+    },
+    {
+      "index": 151,
+      "name": "frame_151.png",
+      "mesh_pixels": 5283,
+      "visible_mesh_pixels": 177,
+      "scene_occluded_mesh_pixels": 5106,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 38,
+      "above_contact_table_hit_mesh_pixels": 38,
+      "mesh_plane_height_quantiles": [
+        0.008312106132507324,
+        0.05577879026532173,
+        0.22127950191497803,
+        0.37739813327789307,
+        0.43361103534698486
+      ],
+      "visible_fraction": 0.033503691084611015
+    },
+    {
+      "index": 152,
+      "name": "frame_152.png",
+      "mesh_pixels": 5326,
+      "visible_mesh_pixels": 185,
+      "scene_occluded_mesh_pixels": 5141,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 43,
+      "above_contact_table_hit_mesh_pixels": 43,
+      "mesh_plane_height_quantiles": [
+        0.008487462997436523,
+        0.05625104904174805,
+        0.22067934274673462,
+        0.37708860635757446,
+        0.43359267711639404
+      ],
+      "visible_fraction": 0.034735260983852795
+    },
+    {
+      "index": 153,
+      "name": "frame_153.png",
+      "mesh_pixels": 5356,
+      "visible_mesh_pixels": 187,
+      "scene_occluded_mesh_pixels": 5169,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 35,
+      "above_contact_table_hit_mesh_pixels": 35,
+      "mesh_plane_height_quantiles": [
+        0.008527874946594238,
+        0.057064831256866455,
+        0.22023850679397583,
+        0.37744778394699097,
+        0.4335750341415405
+      ],
+      "visible_fraction": 0.03491411501120239
+    },
+    {
+      "index": 154,
+      "name": "frame_154.png",
+      "mesh_pixels": 5396,
+      "visible_mesh_pixels": 194,
+      "scene_occluded_mesh_pixels": 5202,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 29,
+      "above_contact_table_hit_mesh_pixels": 29,
+      "mesh_plane_height_quantiles": [
+        0.008525729179382324,
+        0.05706578493118286,
+        0.21975558996200562,
+        0.37728995084762573,
+        0.43355798721313477
+      ],
+      "visible_fraction": 0.03595255744996294
+    },
+    {
+      "index": 155,
+      "name": "frame_155.png",
+      "mesh_pixels": 5430,
+      "visible_mesh_pixels": 197,
+      "scene_occluded_mesh_pixels": 5233,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 22,
+      "above_contact_table_hit_mesh_pixels": 22,
+      "mesh_plane_height_quantiles": [
+        0.008620142936706543,
+        0.05760480463504791,
+        0.21987146139144897,
+        0.37728336453437805,
+        0.4335414171218872
+      ],
+      "visible_fraction": 0.036279926335174954
+    },
+    {
+      "index": 156,
+      "name": "frame_156.png",
+      "mesh_pixels": 5453,
+      "visible_mesh_pixels": 206,
+      "scene_occluded_mesh_pixels": 5247,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 22,
+      "above_contact_table_hit_mesh_pixels": 22,
+      "mesh_plane_height_quantiles": [
+        0.00872945785522461,
+        0.057735394686460495,
+        0.21895134449005127,
+        0.3770967125892639,
+        0.433504581451416
+      ],
+      "visible_fraction": 0.03777737025490556
+    },
+    {
+      "index": 157,
+      "name": "frame_157.png",
+      "mesh_pixels": 5480,
+      "visible_mesh_pixels": 230,
+      "scene_occluded_mesh_pixels": 5250,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 22,
+      "above_contact_table_hit_mesh_pixels": 22,
+      "mesh_plane_height_quantiles": [
+        0.00870370864868164,
+        0.05812448635697365,
+        0.21960103511810303,
+        0.3770970106124878,
+        0.43348991870880127
+      ],
+      "visible_fraction": 0.041970802919708027
+    },
+    {
+      "index": 158,
+      "name": "frame_158.png",
+      "mesh_pixels": 5507,
+      "visible_mesh_pixels": 252,
+      "scene_occluded_mesh_pixels": 5255,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 42,
+      "above_contact_table_hit_mesh_pixels": 42,
+      "mesh_plane_height_quantiles": [
+        0.008770942687988281,
+        0.05813140794634819,
+        0.21953082084655762,
+        0.3773591220378876,
+        0.43348872661590576
+      ],
+      "visible_fraction": 0.04575994189213728
+    },
+    {
+      "index": 159,
+      "name": "frame_159.png",
+      "mesh_pixels": 5523,
+      "visible_mesh_pixels": 297,
+      "scene_occluded_mesh_pixels": 5226,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 72,
+      "above_contact_table_hit_mesh_pixels": 72,
+      "mesh_plane_height_quantiles": [
+        0.0088883638381958,
+        0.058002520352602005,
+        0.21941852569580078,
+        0.3771512508392334,
+        0.4335290193557739
+      ],
+      "visible_fraction": 0.053775122216186855
+    },
+    {
+      "index": 160,
+      "name": "frame_160.png",
+      "mesh_pixels": 5554,
+      "visible_mesh_pixels": 365,
+      "scene_occluded_mesh_pixels": 5189,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 121,
+      "above_contact_table_hit_mesh_pixels": 121,
+      "mesh_plane_height_quantiles": [
+        0.00888669490814209,
+        0.05891449376940727,
+        0.2193390130996704,
+        0.3772430717945099,
+        0.4335290193557739
+      ],
+      "visible_fraction": 0.06571840115232265
+    },
+    {
+      "index": 161,
+      "name": "frame_161.png",
+      "mesh_pixels": 5565,
+      "visible_mesh_pixels": 469,
+      "scene_occluded_mesh_pixels": 5096,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 136,
+      "above_contact_table_hit_mesh_pixels": 136,
+      "mesh_plane_height_quantiles": [
+        0.008872389793395996,
+        0.05962546169757843,
+        0.2197016477584839,
+        0.37752801179885864,
+        0.43344664573669434
+      ],
+      "visible_fraction": 0.08427672955974842
+    },
+    {
+      "index": 162,
+      "name": "frame_162.png",
+      "mesh_pixels": 5594,
+      "visible_mesh_pixels": 572,
+      "scene_occluded_mesh_pixels": 5022,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 151,
+      "above_contact_table_hit_mesh_pixels": 151,
+      "mesh_plane_height_quantiles": [
+        0.008999347686767578,
+        0.0599614717066288,
+        0.2194511890411377,
+        0.3776642382144928,
+        0.4334172010421753
+      ],
+      "visible_fraction": 0.10225241329996425
+    },
+    {
+      "index": 163,
+      "name": "frame_163.png",
+      "mesh_pixels": 5609,
+      "visible_mesh_pixels": 676,
+      "scene_occluded_mesh_pixels": 4933,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 174,
+      "above_contact_table_hit_mesh_pixels": 174,
+      "mesh_plane_height_quantiles": [
+        0.009073376655578613,
+        0.061203859746456146,
+        0.219865083694458,
+        0.377468466758728,
+        0.43341314792633057
+      ],
+      "visible_fraction": 0.12052059190586557
+    },
+    {
+      "index": 164,
+      "name": "frame_164.png",
+      "mesh_pixels": 5626,
+      "visible_mesh_pixels": 773,
+      "scene_occluded_mesh_pixels": 4853,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 208,
+      "above_contact_table_hit_mesh_pixels": 208,
+      "mesh_plane_height_quantiles": [
+        0.009028315544128418,
+        0.06149810552597046,
+        0.21966326236724854,
+        0.3773595094680786,
+        0.43339812755584717
+      ],
+      "visible_fraction": 0.13739779594738713
+    },
+    {
+      "index": 165,
+      "name": "frame_165.png",
+      "mesh_pixels": 5641,
+      "visible_mesh_pixels": 887,
+      "scene_occluded_mesh_pixels": 4754,
+      "table_depth_occlusion_suppressed_pixels": 2,
+      "table_plane_hit_mesh_pixels": 231,
+      "above_contact_table_hit_mesh_pixels": 231,
+      "mesh_plane_height_quantiles": [
+        0.008991122245788574,
+        0.061686038970947266,
+        0.2198389768600464,
+        0.37760329246520996,
+        0.4333852529525757
+      ],
+      "visible_fraction": 0.15724162382556284
+    },
+    {
+      "index": 166,
+      "name": "frame_166.png",
+      "mesh_pixels": 5661,
+      "visible_mesh_pixels": 1003,
+      "scene_occluded_mesh_pixels": 4658,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 265,
+      "above_contact_table_hit_mesh_pixels": 265,
+      "mesh_plane_height_quantiles": [
+        0.009179353713989258,
+        0.06189620494842529,
+        0.22038304805755615,
+        0.37745773792266846,
+        0.4332817792892456
+      ],
+      "visible_fraction": 0.17717717717717718
+    },
+    {
+      "index": 167,
+      "name": "frame_167.png",
+      "mesh_pixels": 5675,
+      "visible_mesh_pixels": 1109,
+      "scene_occluded_mesh_pixels": 4566,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 298,
+      "above_contact_table_hit_mesh_pixels": 298,
+      "mesh_plane_height_quantiles": [
+        0.00909721851348877,
+        0.06266765296459198,
+        0.22012579441070557,
+        0.37738651037216187,
+        0.43335986137390137
+      ],
+      "visible_fraction": 0.19541850220264317
+    },
+    {
+      "index": 168,
+      "name": "frame_168.png",
+      "mesh_pixels": 5688,
+      "visible_mesh_pixels": 1218,
+      "scene_occluded_mesh_pixels": 4470,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 341,
+      "above_contact_table_hit_mesh_pixels": 341,
+      "mesh_plane_height_quantiles": [
+        0.009088873863220215,
+        0.06358261406421661,
+        0.22054409980773926,
+        0.3774442970752716,
+        0.43334710597991943
+      ],
+      "visible_fraction": 0.2141350210970464
+    },
+    {
+      "index": 169,
+      "name": "frame_169.png",
+      "mesh_pixels": 5705,
+      "visible_mesh_pixels": 1339,
+      "scene_occluded_mesh_pixels": 4366,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 406,
+      "above_contact_table_hit_mesh_pixels": 406,
+      "mesh_plane_height_quantiles": [
+        0.009133696556091309,
+        0.0644911527633667,
+        0.22090566158294678,
+        0.3774145841598511,
+        0.43333590030670166
+      ],
+      "visible_fraction": 0.23470639789658196
+    },
+    {
+      "index": 170,
+      "name": "frame_170.png",
+      "mesh_pixels": 5724,
+      "visible_mesh_pixels": 1459,
+      "scene_occluded_mesh_pixels": 4265,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 446,
+      "above_contact_table_hit_mesh_pixels": 446,
+      "mesh_plane_height_quantiles": [
+        0.009240150451660156,
+        0.0650639608502388,
+        0.22066938877105713,
+        0.3772648274898529,
+        0.4333142042160034
+      ],
+      "visible_fraction": 0.25489168413696717
+    },
+    {
+      "index": 171,
+      "name": "frame_171.png",
+      "mesh_pixels": 5735,
+      "visible_mesh_pixels": 1559,
+      "scene_occluded_mesh_pixels": 4176,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 491,
+      "above_contact_table_hit_mesh_pixels": 491,
+      "mesh_plane_height_quantiles": [
+        0.009198784828186035,
+        0.06568419933319092,
+        0.2210557460784912,
+        0.37738364934921265,
+        0.4333028793334961
+      ],
+      "visible_fraction": 0.2718395815170009
+    },
+    {
+      "index": 172,
+      "name": "frame_172.png",
+      "mesh_pixels": 5750,
+      "visible_mesh_pixels": 1673,
+      "scene_occluded_mesh_pixels": 4077,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 535,
+      "above_contact_table_hit_mesh_pixels": 535,
+      "mesh_plane_height_quantiles": [
+        0.009112954139709473,
+        0.06541995704174042,
+        0.220597505569458,
+        0.3772110641002655,
+        0.4332815408706665
+      ],
+      "visible_fraction": 0.29095652173913045
+    },
+    {
+      "index": 173,
+      "name": "frame_173.png",
+      "mesh_pixels": 5770,
+      "visible_mesh_pixels": 1786,
+      "scene_occluded_mesh_pixels": 3984,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 584,
+      "above_contact_table_hit_mesh_pixels": 584,
+      "mesh_plane_height_quantiles": [
+        0.009204506874084473,
+        0.06568703800439835,
+        0.22062665224075317,
+        0.37726065516471863,
+        0.4332348108291626
+      ],
+      "visible_fraction": 0.30953206239168113
+    },
+    {
+      "index": 174,
+      "name": "frame_174.png",
+      "mesh_pixels": 5788,
+      "visible_mesh_pixels": 1896,
+      "scene_occluded_mesh_pixels": 3892,
+      "table_depth_occlusion_suppressed_pixels": 2,
+      "table_plane_hit_mesh_pixels": 622,
+      "above_contact_table_hit_mesh_pixels": 622,
+      "mesh_plane_height_quantiles": [
+        0.009147286415100098,
+        0.06760797649621964,
+        0.22088581323623657,
+        0.3770444989204407,
+        0.4331846237182617
+      ],
+      "visible_fraction": 0.32757429163787144
+    },
+    {
+      "index": 175,
+      "name": "frame_175.png",
+      "mesh_pixels": 5800,
+      "visible_mesh_pixels": 1997,
+      "scene_occluded_mesh_pixels": 3803,
+      "table_depth_occlusion_suppressed_pixels": 3,
+      "table_plane_hit_mesh_pixels": 656,
+      "above_contact_table_hit_mesh_pixels": 656,
+      "mesh_plane_height_quantiles": [
+        0.009031891822814941,
+        0.0686444342136383,
+        0.22081542015075684,
+        0.3770962655544281,
+        0.4332078695297241
+      ],
+      "visible_fraction": 0.3443103448275862
+    },
+    {
+      "index": 176,
+      "name": "frame_176.png",
+      "mesh_pixels": 5817,
+      "visible_mesh_pixels": 2112,
+      "scene_occluded_mesh_pixels": 3705,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 690,
+      "above_contact_table_hit_mesh_pixels": 690,
+      "mesh_plane_height_quantiles": [
+        0.009016036987304688,
+        0.06927710026502609,
+        0.22076547145843506,
+        0.37706539034843445,
+        0.433160662651062
+      ],
+      "visible_fraction": 0.3630737493553378
+    },
+    {
+      "index": 177,
+      "name": "frame_177.png",
+      "mesh_pixels": 5844,
+      "visible_mesh_pixels": 2211,
+      "scene_occluded_mesh_pixels": 3632,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 728,
+      "above_contact_table_hit_mesh_pixels": 728,
+      "mesh_plane_height_quantiles": [
+        0.008944511413574219,
+        0.06983382999897003,
+        0.22066044807434082,
+        0.3769685924053192,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.37833675564681724
+    },
+    {
+      "index": 178,
+      "name": "frame_178.png",
+      "mesh_pixels": 5847,
+      "visible_mesh_pixels": 2325,
+      "scene_occluded_mesh_pixels": 3522,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 773,
+      "above_contact_table_hit_mesh_pixels": 773,
+      "mesh_plane_height_quantiles": [
+        0.008823990821838379,
+        0.06990325450897217,
+        0.2206205129623413,
+        0.37681344151496887,
+        0.43317484855651855
+      ],
+      "visible_fraction": 0.39763981528989223
+    },
+    {
+      "index": 179,
+      "name": "frame_179.png",
+      "mesh_pixels": 5859,
+      "visible_mesh_pixels": 2431,
+      "scene_occluded_mesh_pixels": 3428,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 810,
+      "above_contact_table_hit_mesh_pixels": 810,
+      "mesh_plane_height_quantiles": [
+        0.00869905948638916,
+        0.07033336162567139,
+        0.22061240673065186,
+        0.3769243657588959,
+        0.4331763982772827
+      ],
+      "visible_fraction": 0.4149172213688343
+    },
+    {
+      "index": 180,
+      "name": "frame_180.png",
+      "mesh_pixels": 5873,
+      "visible_mesh_pixels": 2526,
+      "scene_occluded_mesh_pixels": 3347,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 850,
+      "above_contact_table_hit_mesh_pixels": 850,
+      "mesh_plane_height_quantiles": [
+        0.008621573448181152,
+        0.07063748687505722,
+        0.22061264514923096,
+        0.37691086530685425,
+        0.43316543102264404
+      ],
+      "visible_fraction": 0.43010386514558147
+    },
+    {
+      "index": 181,
+      "name": "frame_181.png",
+      "mesh_pixels": 5882,
+      "visible_mesh_pixels": 2621,
+      "scene_occluded_mesh_pixels": 3260,
+      "table_depth_occlusion_suppressed_pixels": 2,
+      "table_plane_hit_mesh_pixels": 884,
+      "above_contact_table_hit_mesh_pixels": 884,
+      "mesh_plane_height_quantiles": [
+        0.008190155029296875,
+        0.07161150872707367,
+        0.22045880556106567,
+        0.37674546241760254,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.44559673580414827
+    },
+    {
+      "index": 182,
+      "name": "frame_182.png",
+      "mesh_pixels": 5889,
+      "visible_mesh_pixels": 2722,
+      "scene_occluded_mesh_pixels": 3167,
+      "table_depth_occlusion_suppressed_pixels": 3,
+      "table_plane_hit_mesh_pixels": 934,
+      "above_contact_table_hit_mesh_pixels": 934,
+      "mesh_plane_height_quantiles": [
+        0.00848543643951416,
+        0.07209188491106033,
+        0.22038280963897705,
+        0.3766153156757355,
+        0.4331321716308594
+      ],
+      "visible_fraction": 0.46221769400577345
+    },
+    {
+      "index": 183,
+      "name": "frame_183.png",
+      "mesh_pixels": 5894,
+      "visible_mesh_pixels": 2827,
+      "scene_occluded_mesh_pixels": 3067,
+      "table_depth_occlusion_suppressed_pixels": 3,
+      "table_plane_hit_mesh_pixels": 977,
+      "above_contact_table_hit_mesh_pixels": 977,
+      "mesh_plane_height_quantiles": [
+        0.008417606353759766,
+        0.07277467101812363,
+        0.22027170658111572,
+        0.3764767348766327,
+        0.4331270456314087
+      ],
+      "visible_fraction": 0.47964031218187986
+    },
+    {
+      "index": 184,
+      "name": "frame_184.png",
+      "mesh_pixels": 5902,
+      "visible_mesh_pixels": 2931,
+      "scene_occluded_mesh_pixels": 2971,
+      "table_depth_occlusion_suppressed_pixels": 3,
+      "table_plane_hit_mesh_pixels": 1026,
+      "above_contact_table_hit_mesh_pixels": 1026,
+      "mesh_plane_height_quantiles": [
+        0.008231282234191895,
+        0.0734911561012268,
+        0.22019898891448975,
+        0.376444011926651,
+        0.43307197093963623
+      ],
+      "visible_fraction": 0.49661131819722126
+    },
+    {
+      "index": 185,
+      "name": "frame_185.png",
+      "mesh_pixels": 5902,
+      "visible_mesh_pixels": 3022,
+      "scene_occluded_mesh_pixels": 2879,
+      "table_depth_occlusion_suppressed_pixels": 3,
+      "table_plane_hit_mesh_pixels": 1065,
+      "above_contact_table_hit_mesh_pixels": 1065,
+      "mesh_plane_height_quantiles": [
+        0.008128881454467773,
+        0.07384319603443146,
+        0.22027653455734253,
+        0.37648987770080566,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.5120298203998644
+    },
+    {
+      "index": 186,
+      "name": "frame_186.png",
+      "mesh_pixels": 5908,
+      "visible_mesh_pixels": 3121,
+      "scene_occluded_mesh_pixels": 2787,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1102,
+      "above_contact_table_hit_mesh_pixels": 1102,
+      "mesh_plane_height_quantiles": [
+        0.008065581321716309,
+        0.07418470084667206,
+        0.22017502784729004,
+        0.3764550983905792,
+        0.4330458641052246
+      ],
+      "visible_fraction": 0.5282667569397427
+    },
+    {
+      "index": 187,
+      "name": "frame_187.png",
+      "mesh_pixels": 5919,
+      "visible_mesh_pixels": 3219,
+      "scene_occluded_mesh_pixels": 2700,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1140,
+      "above_contact_table_hit_mesh_pixels": 1140,
+      "mesh_plane_height_quantiles": [
+        0.007983207702636719,
+        0.07426874339580536,
+        0.22019481658935547,
+        0.3763934373855591,
+        0.4330488443374634
+      ],
+      "visible_fraction": 0.543841865179929
+    },
+    {
+      "index": 188,
+      "name": "frame_188.png",
+      "mesh_pixels": 5924,
+      "visible_mesh_pixels": 3313,
+      "scene_occluded_mesh_pixels": 2611,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1172,
+      "above_contact_table_hit_mesh_pixels": 1172,
+      "mesh_plane_height_quantiles": [
+        0.007912516593933105,
+        0.07462863624095917,
+        0.22021526098251343,
+        0.37634381651878357,
+        0.43299031257629395
+      ],
+      "visible_fraction": 0.5592505064145847
+    },
+    {
+      "index": 189,
+      "name": "frame_189.png",
+      "mesh_pixels": 5932,
+      "visible_mesh_pixels": 3405,
+      "scene_occluded_mesh_pixels": 2527,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1212,
+      "above_contact_table_hit_mesh_pixels": 1212,
+      "mesh_plane_height_quantiles": [
+        0.007905244827270508,
+        0.07473791390657425,
+        0.22013771533966064,
+        0.3763827085494995,
+        0.43299710750579834
+      ],
+      "visible_fraction": 0.5740053944706676
+    },
+    {
+      "index": 190,
+      "name": "frame_190.png",
+      "mesh_pixels": 5942,
+      "visible_mesh_pixels": 3497,
+      "scene_occluded_mesh_pixels": 2445,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1249,
+      "above_contact_table_hit_mesh_pixels": 1249,
+      "mesh_plane_height_quantiles": [
+        0.008047699928283691,
+        0.07496815174818039,
+        0.2201949954032898,
+        0.3764829635620117,
+        0.4330015182495117
+      ],
+      "visible_fraction": 0.5885223830360148
+    },
+    {
+      "index": 191,
+      "name": "frame_191.png",
+      "mesh_pixels": 5944,
+      "visible_mesh_pixels": 3579,
+      "scene_occluded_mesh_pixels": 2365,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1277,
+      "above_contact_table_hit_mesh_pixels": 1277,
+      "mesh_plane_height_quantiles": [
+        0.008016705513000488,
+        0.0752197727560997,
+        0.22012042999267578,
+        0.37652388215065,
+        0.43300580978393555
+      ],
+      "visible_fraction": 0.6021197846567967
+    },
+    {
+      "index": 192,
+      "name": "frame_192.png",
+      "mesh_pixels": 5942,
+      "visible_mesh_pixels": 3655,
+      "scene_occluded_mesh_pixels": 2287,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1298,
+      "above_contact_table_hit_mesh_pixels": 1298,
+      "mesh_plane_height_quantiles": [
+        0.00784313678741455,
+        0.07571443915367126,
+        0.22019106149673462,
+        0.3764171004295349,
+        0.4329894781112671
+      ],
+      "visible_fraction": 0.6151127566475934
+    },
+    {
+      "index": 193,
+      "name": "frame_193.png",
+      "mesh_pixels": 5951,
+      "visible_mesh_pixels": 3738,
+      "scene_occluded_mesh_pixels": 2213,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1321,
+      "above_contact_table_hit_mesh_pixels": 1321,
+      "mesh_plane_height_quantiles": [
+        0.007692813873291016,
+        0.07591235637664795,
+        0.22019410133361816,
+        0.3764777183532715,
+        0.43297040462493896
+      ],
+      "visible_fraction": 0.6281297260964543
+    },
+    {
+      "index": 194,
+      "name": "frame_194.png",
+      "mesh_pixels": 5954,
+      "visible_mesh_pixels": 3814,
+      "scene_occluded_mesh_pixels": 2138,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1347,
+      "above_contact_table_hit_mesh_pixels": 1347,
+      "mesh_plane_height_quantiles": [
+        0.007539153099060059,
+        0.07684467732906342,
+        0.2203371524810791,
+        0.3766762614250183,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.6405777628485052
+    },
+    {
+      "index": 195,
+      "name": "frame_195.png",
+      "mesh_pixels": 5955,
+      "visible_mesh_pixels": 3891,
+      "scene_occluded_mesh_pixels": 2063,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1386,
+      "above_contact_table_hit_mesh_pixels": 1386,
+      "mesh_plane_height_quantiles": [
+        0.0074160099029541016,
+        0.0771847739815712,
+        0.22028100490570068,
+        0.37668707966804504,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.6534005037783376
+    },
+    {
+      "index": 196,
+      "name": "frame_196.png",
+      "mesh_pixels": 5953,
+      "visible_mesh_pixels": 3963,
+      "scene_occluded_mesh_pixels": 1990,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1421,
+      "above_contact_table_hit_mesh_pixels": 1421,
+      "mesh_plane_height_quantiles": [
+        0.007590651512145996,
+        0.07750602066516876,
+        0.22035253047943115,
+        0.3767257034778595,
+        0.4328908920288086
+      ],
+      "visible_fraction": 0.6657147656643709
+    },
+    {
+      "index": 197,
+      "name": "frame_197.png",
+      "mesh_pixels": 5959,
+      "visible_mesh_pixels": 4041,
+      "scene_occluded_mesh_pixels": 1918,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1444,
+      "above_contact_table_hit_mesh_pixels": 1444,
+      "mesh_plane_height_quantiles": [
+        0.007517337799072266,
+        0.07762009650468826,
+        0.22034907341003418,
+        0.37673428654670715,
+        0.43286967277526855
+      ],
+      "visible_fraction": 0.6781339150864238
+    },
+    {
+      "index": 198,
+      "name": "frame_198.png",
+      "mesh_pixels": 5961,
+      "visible_mesh_pixels": 4105,
+      "scene_occluded_mesh_pixels": 1856,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1466,
+      "above_contact_table_hit_mesh_pixels": 1466,
+      "mesh_plane_height_quantiles": [
+        0.007472872734069824,
+        0.07755398750305176,
+        0.22058463096618652,
+        0.3766903877258301,
+        0.43284904956817627
+      ],
+      "visible_fraction": 0.688642845160208
+    },
+    {
+      "index": 199,
+      "name": "frame_199.png",
+      "mesh_pixels": 5960,
+      "visible_mesh_pixels": 4170,
+      "scene_occluded_mesh_pixels": 1790,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1504,
+      "above_contact_table_hit_mesh_pixels": 1504,
+      "mesh_plane_height_quantiles": [
+        0.007433056831359863,
+        0.07780247926712036,
+        0.2206507921218872,
+        0.37665045261383057,
+        0.43282878398895264
+      ],
+      "visible_fraction": 0.6996644295302014
+    },
+    {
+      "index": 200,
+      "name": "frame_200.png",
+      "mesh_pixels": 5963,
+      "visible_mesh_pixels": 4238,
+      "scene_occluded_mesh_pixels": 1725,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1534,
+      "above_contact_table_hit_mesh_pixels": 1534,
+      "mesh_plane_height_quantiles": [
+        0.007379651069641113,
+        0.07794008404016495,
+        0.22076570987701416,
+        0.3766467571258545,
+        0.4328113794326782
+      ],
+      "visible_fraction": 0.7107160825088042
+    },
+    {
+      "index": 201,
+      "name": "frame_201.png",
+      "mesh_pixels": 5963,
+      "visible_mesh_pixels": 4299,
+      "scene_occluded_mesh_pixels": 1664,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1563,
+      "above_contact_table_hit_mesh_pixels": 1563,
+      "mesh_plane_height_quantiles": [
+        0.0073299407958984375,
+        0.07895238697528839,
+        0.22101843357086182,
+        0.3766646087169647,
+        0.4327964782714844
+      ],
+      "visible_fraction": 0.7209458326345799
+    },
+    {
+      "index": 202,
+      "name": "frame_202.png",
+      "mesh_pixels": 5959,
+      "visible_mesh_pixels": 4353,
+      "scene_occluded_mesh_pixels": 1606,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1581,
+      "above_contact_table_hit_mesh_pixels": 1581,
+      "mesh_plane_height_quantiles": [
+        0.00731050968170166,
+        0.0794728472828865,
+        0.2212834358215332,
+        0.3766229748725891,
+        0.4327636957168579
+      ],
+      "visible_fraction": 0.7304916932371204
+    },
+    {
+      "index": 203,
+      "name": "frame_203.png",
+      "mesh_pixels": 5949,
+      "visible_mesh_pixels": 4403,
+      "scene_occluded_mesh_pixels": 1546,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1612,
+      "above_contact_table_hit_mesh_pixels": 1612,
+      "mesh_plane_height_quantiles": [
+        0.007261872291564941,
+        0.0797683447599411,
+        0.22142624855041504,
+        0.37659087777137756,
+        0.4327625036239624
+      ],
+      "visible_fraction": 0.7401243906538915
+    },
+    {
+      "index": 204,
+      "name": "frame_204.png",
+      "mesh_pixels": 5951,
+      "visible_mesh_pixels": 4459,
+      "scene_occluded_mesh_pixels": 1492,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1630,
+      "above_contact_table_hit_mesh_pixels": 1630,
+      "mesh_plane_height_quantiles": [
+        0.007207036018371582,
+        0.08003127574920654,
+        0.22166025638580322,
+        0.37667834758758545,
+        0.43275249004364014
+      ],
+      "visible_fraction": 0.7492858343135608
+    },
+    {
+      "index": 205,
+      "name": "frame_205.png",
+      "mesh_pixels": 5951,
+      "visible_mesh_pixels": 4500,
+      "scene_occluded_mesh_pixels": 1450,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1647,
+      "above_contact_table_hit_mesh_pixels": 1647,
+      "mesh_plane_height_quantiles": [
+        0.007184624671936035,
+        0.08025515079498291,
+        0.22174108028411865,
+        0.37667977809906006,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.7561754327003865
+    },
+    {
+      "index": 206,
+      "name": "frame_206.png",
+      "mesh_pixels": 5948,
+      "visible_mesh_pixels": 4549,
+      "scene_occluded_mesh_pixels": 1399,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1667,
+      "above_contact_table_hit_mesh_pixels": 1667,
+      "mesh_plane_height_quantiles": [
+        0.007114052772521973,
+        0.08057956397533417,
+        0.22192102670669556,
+        0.37667033076286316,
+        0.4326874017715454
+      ],
+      "visible_fraction": 0.7647948890383323
+    },
+    {
+      "index": 207,
+      "name": "frame_207.png",
+      "mesh_pixels": 5939,
+      "visible_mesh_pixels": 4586,
+      "scene_occluded_mesh_pixels": 1353,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1687,
+      "above_contact_table_hit_mesh_pixels": 1687,
+      "mesh_plane_height_quantiles": [
+        0.007015705108642578,
+        0.08100154250860214,
+        0.22206664085388184,
+        0.3766157031059265,
+        0.4327046871185303
+      ],
+      "visible_fraction": 0.7721838693382724
+    },
+    {
+      "index": 208,
+      "name": "frame_208.png",
+      "mesh_pixels": 5934,
+      "visible_mesh_pixels": 4620,
+      "scene_occluded_mesh_pixels": 1314,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1706,
+      "above_contact_table_hit_mesh_pixels": 1706,
+      "mesh_plane_height_quantiles": [
+        0.006920576095581055,
+        0.08119025081396103,
+        0.2222672700881958,
+        0.3767351508140564,
+        0.4326533079147339
+      ],
+      "visible_fraction": 0.7785642062689585
+    },
+    {
+      "index": 209,
+      "name": "frame_209.png",
+      "mesh_pixels": 5938,
+      "visible_mesh_pixels": 4670,
+      "scene_occluded_mesh_pixels": 1268,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1716,
+      "above_contact_table_hit_mesh_pixels": 1716,
+      "mesh_plane_height_quantiles": [
+        0.006828904151916504,
+        0.08121615648269653,
+        0.22221344709396362,
+        0.37670373916625977,
+        0.43264245986938477
+      ],
+      "visible_fraction": 0.7864600875715729
+    },
+    {
+      "index": 210,
+      "name": "frame_210.png",
+      "mesh_pixels": 5939,
+      "visible_mesh_pixels": 4700,
+      "scene_occluded_mesh_pixels": 1239,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1739,
+      "above_contact_table_hit_mesh_pixels": 1739,
+      "mesh_plane_height_quantiles": [
+        0.006740450859069824,
+        0.08118107169866562,
+        0.222162127494812,
+        0.37668293714523315,
+        0.432653546333313
+      ],
+      "visible_fraction": 0.7913790200370433
+    },
+    {
+      "index": 211,
+      "name": "frame_211.png",
+      "mesh_pixels": 5934,
+      "visible_mesh_pixels": 4744,
+      "scene_occluded_mesh_pixels": 1190,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1742,
+      "above_contact_table_hit_mesh_pixels": 1742,
+      "mesh_plane_height_quantiles": [
+        0.006655097007751465,
+        0.08141890913248062,
+        0.22239524126052856,
+        0.376662939786911,
+        0.4326481819152832
+      ],
+      "visible_fraction": 0.7994607347489047
+    },
+    {
+      "index": 212,
+      "name": "frame_212.png",
+      "mesh_pixels": 5929,
+      "visible_mesh_pixels": 4763,
+      "scene_occluded_mesh_pixels": 1166,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1754,
+      "above_contact_table_hit_mesh_pixels": 1754,
+      "mesh_plane_height_quantiles": [
+        0.006527900695800781,
+        0.08151528984308243,
+        0.22238028049468994,
+        0.37663111090660095,
+        0.4326350688934326
+      ],
+      "visible_fraction": 0.8033395176252319
+    },
+    {
+      "index": 213,
+      "name": "frame_213.png",
+      "mesh_pixels": 5925,
+      "visible_mesh_pixels": 4805,
+      "scene_occluded_mesh_pixels": 1120,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1758,
+      "above_contact_table_hit_mesh_pixels": 1758,
+      "mesh_plane_height_quantiles": [
+        0.006544589996337891,
+        0.08163101971149445,
+        0.2227163314819336,
+        0.3766133487224579,
+        0.4326249361038208
+      ],
+      "visible_fraction": 0.810970464135021
+    },
+    {
+      "index": 214,
+      "name": "frame_214.png",
+      "mesh_pixels": 5917,
+      "visible_mesh_pixels": 4824,
+      "scene_occluded_mesh_pixels": 1093,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1773,
+      "above_contact_table_hit_mesh_pixels": 1773,
+      "mesh_plane_height_quantiles": [
+        0.006551027297973633,
+        0.08165393024682999,
+        0.22260677814483643,
+        0.37658289074897766,
+        0.43261539936065674
+      ],
+      "visible_fraction": 0.8152780125063377
+    },
+    {
+      "index": 215,
+      "name": "frame_215.png",
+      "mesh_pixels": 5921,
+      "visible_mesh_pixels": 4867,
+      "scene_occluded_mesh_pixels": 1054,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1781,
+      "above_contact_table_hit_mesh_pixels": 1781,
+      "mesh_plane_height_quantiles": [
+        0.006544232368469238,
+        0.08164656162261963,
+        0.22259342670440674,
+        0.3765643835067749,
+        0.4326058626174927
+      ],
+      "visible_fraction": 0.8219895287958116
+    },
+    {
+      "index": 216,
+      "name": "frame_216.png",
+      "mesh_pixels": 5913,
+      "visible_mesh_pixels": 4884,
+      "scene_occluded_mesh_pixels": 1029,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1794,
+      "above_contact_table_hit_mesh_pixels": 1794,
+      "mesh_plane_height_quantiles": [
+        0.006538987159729004,
+        0.08169247955083847,
+        0.22271811962127686,
+        0.3766034245491028,
+        0.4325902462005615
+      ],
+      "visible_fraction": 0.8259766615930999
+    },
+    {
+      "index": 217,
+      "name": "frame_217.png",
+      "mesh_pixels": 5912,
+      "visible_mesh_pixels": 4912,
+      "scene_occluded_mesh_pixels": 1000,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1808,
+      "above_contact_table_hit_mesh_pixels": 1808,
+      "mesh_plane_height_quantiles": [
+        0.006537437438964844,
+        0.08177955448627472,
+        0.22274863719940186,
+        0.3765537142753601,
+        0.4325878620147705
+      ],
+      "visible_fraction": 0.8308525033829499
+    },
+    {
+      "index": 218,
+      "name": "frame_218.png",
+      "mesh_pixels": 5911,
+      "visible_mesh_pixels": 4944,
+      "scene_occluded_mesh_pixels": 967,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1827,
+      "above_contact_table_hit_mesh_pixels": 1827,
+      "mesh_plane_height_quantiles": [
+        0.006507396697998047,
+        0.08182847499847412,
+        0.22277414798736572,
+        0.3765678405761719,
+        0.43257737159729004
+      ],
+      "visible_fraction": 0.8364066993740484
+    },
+    {
+      "index": 219,
+      "name": "frame_219.png",
+      "mesh_pixels": 5904,
+      "visible_mesh_pixels": 4961,
+      "scene_occluded_mesh_pixels": 943,
+      "table_depth_occlusion_suppressed_pixels": 1,
+      "table_plane_hit_mesh_pixels": 1836,
+      "above_contact_table_hit_mesh_pixels": 1836,
+      "mesh_plane_height_quantiles": [
+        0.006479024887084961,
+        0.0819377675652504,
+        0.2228844165802002,
+        0.3767889440059662,
+        0.4325674772262573
+      ],
+      "visible_fraction": 0.8402777777777778
+    },
+    {
+      "index": 220,
+      "name": "frame_220.png",
+      "mesh_pixels": 5906,
+      "visible_mesh_pixels": 4984,
+      "scene_occluded_mesh_pixels": 920,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1845,
+      "above_contact_table_hit_mesh_pixels": 1845,
+      "mesh_plane_height_quantiles": [
+        0.006452202796936035,
+        0.08173775672912598,
+        0.222997784614563,
+        0.3770792484283447,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.843887571960718
+    },
+    {
+      "index": 221,
+      "name": "frame_221.png",
+      "mesh_pixels": 5903,
+      "visible_mesh_pixels": 5005,
+      "scene_occluded_mesh_pixels": 896,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1854,
+      "above_contact_table_hit_mesh_pixels": 1854,
+      "mesh_plane_height_quantiles": [
+        0.006838679313659668,
+        0.0817222148180008,
+        0.22297239303588867,
+        0.37691164016723633,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8478739623920041
+    },
+    {
+      "index": 222,
+      "name": "frame_222.png",
+      "mesh_pixels": 5897,
+      "visible_mesh_pixels": 5021,
+      "scene_occluded_mesh_pixels": 876,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1862,
+      "above_contact_table_hit_mesh_pixels": 1862,
+      "mesh_plane_height_quantiles": [
+        0.007424712181091309,
+        0.08170082420110703,
+        0.22295677661895752,
+        0.3770175576210022,
+        0.43256115913391113
+      ],
+      "visible_fraction": 0.8514498897744616
+    },
+    {
+      "index": 223,
+      "name": "frame_223.png",
+      "mesh_pixels": 5894,
+      "visible_mesh_pixels": 5037,
+      "scene_occluded_mesh_pixels": 857,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1863,
+      "above_contact_table_hit_mesh_pixels": 1863,
+      "mesh_plane_height_quantiles": [
+        0.007284641265869141,
+        0.08175989240407944,
+        0.22310340404510498,
+        0.3770936131477356,
+        0.43256187438964844
+      ],
+      "visible_fraction": 0.8545978961655921
+    },
+    {
+      "index": 224,
+      "name": "frame_224.png",
+      "mesh_pixels": 5889,
+      "visible_mesh_pixels": 5049,
+      "scene_occluded_mesh_pixels": 840,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1872,
+      "above_contact_table_hit_mesh_pixels": 1872,
+      "mesh_plane_height_quantiles": [
+        0.006831526756286621,
+        0.0817497968673706,
+        0.22313177585601807,
+        0.3770941495895386,
+        0.4325627088546753
+      ],
+      "visible_fraction": 0.8573611818644932
+    },
+    {
+      "index": 225,
+      "name": "frame_225.png",
+      "mesh_pixels": 5882,
+      "visible_mesh_pixels": 5063,
+      "scene_occluded_mesh_pixels": 819,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1873,
+      "above_contact_table_hit_mesh_pixels": 1873,
+      "mesh_plane_height_quantiles": [
+        0.007266879081726074,
+        0.08211231231689453,
+        0.2231401801109314,
+        0.3769933581352234,
+        0.432561993598938
+      ],
+      "visible_fraction": 0.8607616456987419
+    },
+    {
+      "index": 226,
+      "name": "frame_226.png",
+      "mesh_pixels": 5877,
+      "visible_mesh_pixels": 5076,
+      "scene_occluded_mesh_pixels": 801,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1880,
+      "above_contact_table_hit_mesh_pixels": 1880,
+      "mesh_plane_height_quantiles": [
+        0.007269144058227539,
+        0.0820428654551506,
+        0.22314143180847168,
+        0.37712618708610535,
+        0.4325612783432007
+      ],
+      "visible_fraction": 0.8637059724349158
+    },
+    {
+      "index": 227,
+      "name": "frame_227.png",
+      "mesh_pixels": 5876,
+      "visible_mesh_pixels": 5089,
+      "scene_occluded_mesh_pixels": 787,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1884,
+      "above_contact_table_hit_mesh_pixels": 1884,
+      "mesh_plane_height_quantiles": [
+        0.007280826568603516,
+        0.08207541704177856,
+        0.22311311960220337,
+        0.37718719244003296,
+        0.43256711959838867
+      ],
+      "visible_fraction": 0.8660653505786249
+    },
+    {
+      "index": 228,
+      "name": "frame_228.png",
+      "mesh_pixels": 5877,
+      "visible_mesh_pixels": 5104,
+      "scene_occluded_mesh_pixels": 772,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1887,
+      "above_contact_table_hit_mesh_pixels": 1887,
+      "mesh_plane_height_quantiles": [
+        0.006323695182800293,
+        0.0820942148566246,
+        0.2232532501220703,
+        0.3772292137145996,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.868470307980262
+    },
+    {
+      "index": 229,
+      "name": "frame_229.png",
+      "mesh_pixels": 5874,
+      "visible_mesh_pixels": 5114,
+      "scene_occluded_mesh_pixels": 759,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1892,
+      "above_contact_table_hit_mesh_pixels": 1892,
+      "mesh_plane_height_quantiles": [
+        0.007175564765930176,
+        0.08221226930618286,
+        0.22320353984832764,
+        0.3772871196269989,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8706162751106571
+    },
+    {
+      "index": 230,
+      "name": "frame_230.png",
+      "mesh_pixels": 5873,
+      "visible_mesh_pixels": 5120,
+      "scene_occluded_mesh_pixels": 752,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1891,
+      "above_contact_table_hit_mesh_pixels": 1891,
+      "mesh_plane_height_quantiles": [
+        0.007137417793273926,
+        0.08222754299640656,
+        0.2232295274734497,
+        0.37736034393310547,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8717861399625404
+    },
+    {
+      "index": 231,
+      "name": "frame_231.png",
+      "mesh_pixels": 5870,
+      "visible_mesh_pixels": 5127,
+      "scene_occluded_mesh_pixels": 742,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1909,
+      "above_contact_table_hit_mesh_pixels": 1909,
+      "mesh_plane_height_quantiles": [
+        0.007103085517883301,
+        0.0822070986032486,
+        0.22316431999206543,
+        0.37737277150154114,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8734241908006815
+    },
+    {
+      "index": 232,
+      "name": "frame_232.png",
+      "mesh_pixels": 5870,
+      "visible_mesh_pixels": 5136,
+      "scene_occluded_mesh_pixels": 733,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1906,
+      "above_contact_table_hit_mesh_pixels": 1906,
+      "mesh_plane_height_quantiles": [
+        0.007072806358337402,
+        0.08221935480833054,
+        0.22311931848526,
+        0.37733936309814453,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8749574105621806
+    },
+    {
+      "index": 233,
+      "name": "frame_233.png",
+      "mesh_pixels": 5872,
+      "visible_mesh_pixels": 5146,
+      "scene_occluded_mesh_pixels": 725,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1908,
+      "above_contact_table_hit_mesh_pixels": 1908,
+      "mesh_plane_height_quantiles": [
+        0.0070465803146362305,
+        0.08213595300912857,
+        0.223111093044281,
+        0.3775043189525604,
+        1.8326572179794312
+      ],
+      "visible_fraction": 0.8763623978201635
+    },
+    {
+      "index": 234,
+      "name": "frame_234.png",
+      "mesh_pixels": 5871,
+      "visible_mesh_pixels": 5149,
+      "scene_occluded_mesh_pixels": 722,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1913,
+      "above_contact_table_hit_mesh_pixels": 1913,
+      "mesh_plane_height_quantiles": [
+        0.007024049758911133,
+        0.08209264278411865,
+        0.22309863567352295,
+        0.3773496150970459,
+        0.43254876136779785
+      ],
+      "visible_fraction": 0.8770226537216829
+    },
+    {
+      "index": 235,
+      "name": "frame_235.png",
+      "mesh_pixels": 5872,
+      "visible_mesh_pixels": 5159,
+      "scene_occluded_mesh_pixels": 713,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1914,
+      "above_contact_table_hit_mesh_pixels": 1914,
+      "mesh_plane_height_quantiles": [
+        0.007005453109741211,
+        0.08195310086011887,
+        0.2230857014656067,
+        0.3773452043533325,
+        0.43254637718200684
+      ],
+      "visible_fraction": 0.8785762942779292
+    },
+    {
+      "index": 236,
+      "name": "frame_236.png",
+      "mesh_pixels": 5872,
+      "visible_mesh_pixels": 5165,
+      "scene_occluded_mesh_pixels": 707,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1913,
+      "above_contact_table_hit_mesh_pixels": 1913,
+      "mesh_plane_height_quantiles": [
+        0.006991028785705566,
+        0.08209232240915298,
+        0.22305303812026978,
+        0.3773445785045624,
+        0.4325445890426636
+      ],
+      "visible_fraction": 0.8795980926430518
+    },
+    {
+      "index": 237,
+      "name": "frame_237.png",
+      "mesh_pixels": 5873,
+      "visible_mesh_pixels": 5171,
+      "scene_occluded_mesh_pixels": 702,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1917,
+      "above_contact_table_hit_mesh_pixels": 1917,
+      "mesh_plane_height_quantiles": [
+        0.006981015205383301,
+        0.08192532509565353,
+        0.22304856777191162,
+        0.3773391544818878,
+        0.43254339694976807
+      ],
+      "visible_fraction": 0.8804699472160735
+    },
+    {
+      "index": 238,
+      "name": "frame_238.png",
+      "mesh_pixels": 5872,
+      "visible_mesh_pixels": 5170,
+      "scene_occluded_mesh_pixels": 702,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1917,
+      "above_contact_table_hit_mesh_pixels": 1917,
+      "mesh_plane_height_quantiles": [
+        0.00697481632232666,
+        0.08192187547683716,
+        0.22305512428283691,
+        0.3773426115512848,
+        0.43254268169403076
+      ],
+      "visible_fraction": 0.8804495912806539
+    },
+    {
+      "index": 239,
+      "name": "frame_239.png",
+      "mesh_pixels": 5872,
+      "visible_mesh_pixels": 5171,
+      "scene_occluded_mesh_pixels": 701,
+      "table_depth_occlusion_suppressed_pixels": 0,
+      "table_plane_hit_mesh_pixels": 1918,
+      "above_contact_table_hit_mesh_pixels": 1918,
+      "mesh_plane_height_quantiles": [
+        0.006972670555114746,
+        0.0819229781627655,
+        0.22305482625961304,
+        0.37734243273735046,
+        0.43254220485687256
+      ],
+      "visible_fraction": 0.8806198910081744
+    }
+  ]
+}
+

@@ -1,0 +1,125 @@
+{
+  "source_mesh": "outputs/objects/white-plush/fresh_milo_reconstruction_20261121/meshes/milo_sam2_v1/learned_sdf_train_culled.ply",
+  "source_colmap_report": "outputs/objects/white-plush/fresh_milo_reconstruction_20261121/models/milo_data_sam2_v1/colmap_preparation_report.json",
+  "front_reference_image": "1978_000000.png",
+  "orientation_correction": "none",
+  "T_object_from_colmap": [
+    [
+      0.9212456265993245,
+      -0.025710478242708654,
+      0.38813073413496824,
+      0.013417072550651872
+    ],
+    [
+      0.1488929514771439,
+      -0.8985128489569105,
+      -0.4129231759780032,
+      2.5790817556847516
+    ],
+    [
+      0.35935690402724013,
+      0.43819360055558476,
+      -0.8239229235554075,
+      0.08575645910634606
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "T_colmap_from_object": [
+    [
+      0.9212456265993243,
+      0.14889295147714388,
+      0.3593569040272399,
+      -0.4271846897586057
+    ],
+    [
+      -0.02571047824270859,
+      -0.8985128489569104,
+      0.4381936005555846,
+      2.2801051237582834
+    ],
+    [
+      0.388130734134968,
+      -0.41292317597800315,
+      -0.8239229235554071,
+      1.1304117639459055
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "axes_colmap": {
+    "X": [
+      0.9212456265993245,
+      -0.025710478242708654,
+      0.38813073413496824
+    ],
+    "Y_support_normal": [
+      0.1488929514771439,
+      -0.8985128489569105,
+      -0.4129231759780032
+    ],
+    "Z_front": [
+      0.35935690402724013,
+      0.43819360055558476,
+      -0.8239229235554075
+    ]
+  },
+  "origin_colmap": [
+    -0.42718468975860585,
+    2.280105123758284,
+    1.130411763945906
+  ],
+  "support_plane": {
+    "status": "ok",
+    "normal": [
+      0.1488929514771439,
+      -0.8985128489569105,
+      -0.4129231759780032
+    ],
+    "offset": 2.5790817556847516,
+    "inliers": 7951,
+    "candidate_count": 11787,
+    "threshold": 0.018699036122501428
+  },
+  "units": "COLMAP units; metric scale not calibrated",
+  "height_99_percentile": 1.6311179256845334,
+  "aabb_object_frame": {
+    "min": [
+      -0.6726021060115375,
+      -0.025614289327829727,
+      -0.8421284556015345
+    ],
+    "max": [
+      0.7655650122118312,
+      1.667397436084261,
+      0.49877343643283256
+    ],
+    "dimensions": [
+      1.4381671182233686,
+      1.6930117254120907,
+      1.340901892034367
+    ]
+  },
+  "contact_polygon_area_xz": 0.6507083269800008,
+  "vertex_count": 199712,
+  "face_count": 398449,
+  "surface_color_type": "vertex colors",
+  "outputs": [
+    "outputs/objects/white-plush/fresh_milo_fusion_20261122_fixed_camera/orientation_candidates/anchor_as_reported/mesh_clean_object_frame.ply",
+    "outputs/objects/white-plush/fresh_milo_fusion_20261122_fixed_camera/orientation_candidates/anchor_as_reported/mesh_vertex_colored_object_frame.glb"
+  ],
+  "surface_area_centroid_object": [
+    -0.05039670103312678,
+    0.9191056721258619,
+    -0.30061103835175024
+  ],
+  "mesh_center_method": "triangle-area-weighted surface centroid transformed from preserved reference frame into source-view-validated anchor frame"
+}

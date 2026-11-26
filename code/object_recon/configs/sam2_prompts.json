@@ -1,0 +1,10 @@
+{
+  "keyframe_stride": 10,
+  "box_padding_px": 20,
+  "negative_offset_px": 34,
+  "manual_positive_points_xy": {
+    "1979_000048": [[255, 400]],
+    "1979_000104": [[260, 425]]
+  },
+  "note": "Coordinates are source-frame pixels (x, y). The extra positive points recover the plush's pale side limbs missed by the automatic foreground masks."
+}

@@ -1,0 +1,28 @@
+# Generated files and local coursework inputs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Assignment data and local training artifacts
+/data/
+data/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# LaTeX build products
+report_src/*.aux
+report_src/*.log
+report_src/*.out
+report_src/*.synctex.gz
+report_src/*.fls
+report_src/*.fdb_latexmk
+report_src/main.pdf
+datasets/
+course_data/

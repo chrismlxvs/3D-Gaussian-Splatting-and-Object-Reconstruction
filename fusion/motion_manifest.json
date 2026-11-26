@@ -1,0 +1,32 @@
+{
+  "video": "orbit.mp4",
+  "motion_type": "one-way 180-degree camera half-turn around the fixed plush center",
+  "signed_sweep_degrees": 180.0,
+  "rotation_axis": "Garden tabletop normal",
+  "return_motion": false,
+  "rendered_camera_views": 240,
+  "rendered_at_full_rate": true,
+  "frame_interpolation": "none",
+  "object_to_scene_transform": "fixed across all frames",
+  "object_center_target_pixel": [580.0, 335.0],
+  "max_center_projection_error_pixels": 4.69e-13,
+  "duration_seconds": 10.0,
+  "fps": 24,
+  "frames": 240,
+  "resolution": "1296x840 (one rightmost source column cropped for even-width H.264 4:2:0)",
+  "depth_audit": {
+    "scene_occluded_frames": 153,
+    "fully_occluded_frames": 10,
+    "fully_occluded_frame_range": [129, 138],
+    "scene_occluded_mesh_pixel_frames": 437941,
+    "visible_fraction_start": 1.0,
+    "visible_fraction_frame_120": 0.0702,
+    "visible_fraction_end": 0.8806
+  },
+  "placement_audit": {
+    "support_patch_within_table_hull": true,
+    "support_patch_hull_margin_scene_units": 0.561928329410295,
+    "minimum_clearance_scene_units": 0.004995361776078733
+  },
+  "note": "The Garden camera makes a single smooth half-turn. The plush stays upright and fixed in Garden coordinates; it passes behind the vase and reappears. No zoom, return arc, or object rotation is used."
+}

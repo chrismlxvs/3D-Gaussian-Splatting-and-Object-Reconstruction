@@ -1,0 +1,13 @@
+{
+  "step_count": 30000,
+  "elapsed_seconds": 1998.6106776641682,
+  "physical_gpu": 4,
+  "visible_cuda_devices": 1,
+  "device": "NVIDIA RTX A6000",
+  "training_views": 161,
+  "initial_gaussians": 135521,
+  "final_gaussians": 4915448,
+  "first_loss": 0.2945151925086975,
+  "last_loss": 0.038876764476299286,
+  "peak_allocated_mib": 10192.57
+}
